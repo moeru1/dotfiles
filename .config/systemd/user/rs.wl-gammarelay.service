@@ -1,0 +1,12 @@
+[Unit]
+Description=wl-gammarelay-rs
+PartOf=sway.service
+After=sway.service
+
+[Service]
+Enviroment=XDG_RUNTIME_DIR=/run/user/1000
+Enviroment=WAYLAND_DISPLAY=wayland-1
+ExecStart=/home/moeru/.cargo/bin/wl-gammarelay-rs
+
+[Install]
+WantedBy=sway.service
