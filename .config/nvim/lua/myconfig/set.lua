@@ -34,5 +34,7 @@ vim.opt.wrap = true
 vim.filetype.add({
     extension = {
         nu = 'nu',
+        templ = 'templ',
     }
 })
+vim.g.python3_host_prog = "/usr/bin/python3"

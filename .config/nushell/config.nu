@@ -6,6 +6,36 @@
 # https://www.nushell.sh/book/coloring_and_theming.html
 # And here is the theme collection
 # https://github.com/nushell/nu_scripts/tree/main/themes
+let fzf_menu =  {
+    name: fzf_menu
+    only_buffer_difference: false
+    marker: "# "
+    type: {
+        layout: columnar
+        columns: 1
+        col_width: 20
+        col_padding: 2
+    }
+    style: {
+        text: green
+        selected_text: green_reverse
+        description_text: yellow
+    }
+    source: { |buffer, position|
+        let input = (fzf --no-sort --tac  | lines)
+        let start = ($buffer | str index-of ' ') + 1
+                
+        $input
+        | each { |v| 
+            {
+                value: ($v | str trim) 
+                span: { start: $start end: $position }
+            } 
+        }
+    }
+}
+
+
 let dark_theme = {
     # color for nushell primitives
     separator: white
@@ -292,9 +322,51 @@ $env.config = {
                 text: green
                 selected_text: green_reverse
                 description_text: yellow
-            }
+                }
         }
-    ]
+        {
+          name: fzf_history_menu_fzf_ui
+          only_buffer_difference: false
+          marker: "# "
+          type: {
+            layout: columnar
+            columns: 4
+            col_width: 20
+            col_padding: 2
+          }
+          style: {
+            text: green
+            selected_text: green_reverse
+            description_text: yellow
+          }
+          source: { |buffer, position|
+            open -r $nu.history-path | fzf +s --tac | str trim
+                | where $it =~ $buffer
+                | each { |v| {value: ($v | str trim) } }
+          }
+        }
+        {
+          name: fzf_menu_nu_ui
+          only_buffer_difference: false
+          marker: "# "
+          type: {
+            layout: list
+            page_size: 10
+          }
+          style: {
+            text: "#66ff66"
+            selected_text: { fg: "#66ff66" attr: r }
+            description_text: yellow
+          }        
+          source: { |buffer, position|
+            open -r $nu.history-path
+                | fzf -f $buffer
+                | lines
+                | each { |v| {value: ($v | str trim) } }
+           }
+        }
+        $fzf_menu
+        ]
 
     keybindings: [
         {
@@ -753,7 +825,29 @@ $env.config = {
             mode: emacs
             event: {edit: capitalizechar}
         }
+        {
+          name: change_dir_with_fzf
+          modifier: control
+          keycode: char_f
+          mode: [emacs, vi_insert]
+          event: {send: menu name: fzf_menu}
+        }
+        {
+          name: fzf_history_menu_fzf_ui
+          modifier: alt 
+          keycode: char_t 
+          mode: [emacs, vi_normal, vi_insert]
+          event: { send: menu name: fzf_history_menu_fzf_ui }
+        }
+        {
+          name: fzf_menu_nu_ui
+          modifier: control
+          keycode: char_w
+          mode: [emacs, vi_normal, vi_insert]
+          event: { send: menu name: fzf_menu_nu_ui }
+        }
     ]
 }
+
 source ~/.zoxide.nu
 source ./nu/mod.nu

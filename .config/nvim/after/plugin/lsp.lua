@@ -4,14 +4,14 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
   'rust_analyzer',
-  'pyright',
   'clangd',
   'bashls',
   'lua_ls',
   'typst_lsp',
   'yamlls',
   'jsonls',
-  'gopls'
+  'gopls',
+  'templ'
 })
 
 lsp.nvim_workspace()
@@ -71,3 +71,18 @@ lsp.setup()
 vim.diagnostic.config({
     virtual_text = true
 })
+
+-- Format current buffer using LSP.
+vim.api.nvim_create_autocmd(
+  {
+    -- 'BufWritePre' event triggers just before a buffer is written to file.
+    "BufWritePre"
+  },
+  {
+    pattern = {"*.templ"},
+    callback = function()
+      -- Format the current buffer using Neovim's built-in LSP (Language Server Protocol).
+      vim.lsp.buf.format()
+    end,
+  }
+)

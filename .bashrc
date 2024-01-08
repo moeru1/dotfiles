@@ -139,3 +139,8 @@ export PATH="$PATH:/usr/local/go/bin"
 
 #export RUSTC_WRAPPER=sccache cargo install {package}
 
+# Print tree structure in the preview window
+
+source /usr/share/doc/fzf/examples/key-bindings.bash
+
+

@@ -6,7 +6,7 @@ export-env {
     ]})
 }
 
-export def-env dirs [
+export def --env dirs [
     stack: string = "default"
     --clear (-c) # Clear the directory stack
 ] {
@@ -19,7 +19,7 @@ export def-env dirs [
     }
 }
 
-export def-env popd [
+export def --env popd [
     number: int = 1 # Entry to go to, see the indices in `dirs`
     --stack (-s): string = "default"
 ] {
@@ -39,7 +39,7 @@ export def-env popd [
     cd $dest
 }
 
-export def-env pushd [
+export def --env pushd [
     path: string
     stack: string = "default"
 ] {

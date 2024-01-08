@@ -1,0 +1,11 @@
+*
+!.bashrc
+!.gitignore
+!enviroment.d/*
+!kitty/*
+!nushell/*
+!nvim/*
+!sway/*
+!systemd/user/*
+!tofi/*
+!waybar/*

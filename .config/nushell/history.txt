@@ -4661,3 +4661,4393 @@ git add -f waybar/
 git status
 git add -f tofi
 git add -f nvim
+git add -f nushell
+cd gh
+ls
+nvim config.yml
+nvim hosts.yml
+gh --help
+cd ..
+ls
+cd systemd/
+ls
+cd user/
+ls
+cd ..
+git add -f systemd/
+git add -f kitty/
+git add -f environment.d/
+cd ..
+ls
+cd .config
+ls -a
+ls | sort-by modified 
+ls
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/moeru1/dotfiles.git
+man git branch
+git branch -M main
+man git
+git push -u origin main
+man git push 
+git status
+cd tofi/
+ls
+nvim config
+nvim ~/.local/share/fonts/2157-font.otf
+cd ~/.local/share/fonts/
+ls | find Chalk
+ls | find Code
+python3
+zi CV
+cd ~
+z CV
+ls
+okular cv_main.pdf
+k themes Acme
+bluetoothctl 
+ls | sort-by modified 
+mkdir scripts
+ls | sort-by modified 
+mv bluetooth.sh scripts/
+swaycfg
+cat ~/nu/notification-history.nu
+def swaycfg [] {nvim ~/.config/sway/config}
+swaycfg
+alias swaycfg = nvim ~/.config/sway/config
+swaycfg 
+config nu
+config env
+source ~/.config/nushell/env.nu
+nvimcfg
+config env
+source ~/.config/nushell/env.nu
+nvimcfg
+cd ~/.config/nviim
+cd ~/.config/nvim
+nvim .
+nvim
+nvim .
+ls
+cd ..
+nvim
+nvim .
+ls
+nvim .
+config env
+cd /media/moeru/my_dev
+ls | sort-by modified 
+k icat Untitled.jpeg
+nvim .
+nvimcfg
+nvim --version
+nvim 
+nvim .
+ripgrep
+bash
+rg
+nvim 
+swaycfg 
+nvim .
+nvimcfg
+config env
+source ~/.config/nushell/env.nu
+vimcfg
+config env
+source ~/.config/nushell/env.nu
+config env
+nvimcfg
+fd-find
+fzf
+ls | fzf
+fzf
+sudo apt reinstall fzf
+fzf
+fzf --version
+nvim .
+fd --version
+cargo install fs
+sudo apt search fd
+sudo apt search fd | fzf
+fd
+fd --help
+man fd
+cargo install fd
+sudo apt install fd-find
+fd
+fd --help
+fd --version
+fd
+cargo list
+cargo --list
+cargo install --list
+fd
+whreis fd
+whereis fd
+sudo apt remove fd-find
+fd
+fd --version
+cargo upgrade fd
+cargo install --list
+cargo update fd-find
+bash
+ls
+cargo install fd-find
+fd --version
+nvim .
+nvim ~/projects/minigrep/src/lib.rs
+nvim 
+nvim .
+rg
+sudo apt install ripgrep
+ripgrep
+rg
+rg --version
+nvim .
+sudo apt reinstall ripgrep
+nvim .
+nvimcf
+nvimcfg
+rg,--ignore,--hidden,--files prompt_prefix=🔍
+rg --ignore --hidden --files prompt_prefix=🔍
+rg --ignore --hidden --files
+rg 
+rg --files
+rg -i
+rg -i *
+clear
+rg -i *
+rg *
+grep
+grep *
+ripgrep *
+rg *
+nvim ~/.config/nvim
+sudo apt remove ripgrep
+nvim .
+fd
+fd --version
+cargo uninstall ripgrep 
+fd --version
+rg --version
+fd
+fd --help
+fd *
+fd -e jpg
+fd -e txt
+ls | find txt
+fd -e .txt
+fd -e *txt
+rg
+nvim .
+cargo install ripgrep
+sudo apt install rust-fd-find
+fd
+cargo install --list
+cd ~/projects
+nvim .
+ls
+nvim .
+cd a-tour-of-go/
+nvim .
+cd ..
+nvim ~/.config/nvim
+nvim .
+cmake
+cmake --version
+nvim ~/.config/nvim
+nvim .
+k themes Catppuccin
+nvim .
+nvim ~/.config/nvim
+cd ~/.config/nvim
+nvim .
+cd .
+cd ..
+nvim ~/.config/nvim
+mkdir debug
+cd debug
+git clone https://github.com/nvim-telescope/telescope.nvim
+mkdir plugin
+mv telescope.nvim/ plugin
+nvim test-vimrc
+vim -u NONE -u ~/debug/test-vimrc
+vim test-vimrc
+vim -u NONE -u ~/debug/test-vimrc
+vim -u NONE -u ~/debug/test-vimrc -D
+vim test-vimrc
+vim -U NONE -u ~/debug/test-vimrc
+help nvim
+nvim --help
+man nvim
+vim -u ~/debug/test-vimrc
+man nvim
+nvim --no-plugin -u test-vimrc
+nvim --noplugin -u test-vimrc
+nvim test-vimrc
+ls
+nvim test-vimrc
+cd plugin/telescope.nvim/plugin/
+ls
+cd ..
+ls
+cd ..
+fd 
+fz
+fzf
+fd
+man fd
+fd --help
+cd ~/projects/add/
+fd 
+fd --help
+ls
+cd add_one/
+ls
+cd src/
+ls
+fd 
+fd
+cd ~
+fd
+fd --help
+find
+find --help
+fd
+find
+fd
+bash
+cd repos
+git clone https://github.com/sharkdp/fd
+cd fd
+ls
+fd --version
+whereis df
+whereis fd
+cd src
+ls
+nvim .
+cd ~/projects/add/
+nvim .
+popd
+nvim .
+cd ..
+ls
+cd src/
+ls
+nvim .
+cd ~
+nvim .
+popd
+nvim .
+cargo build
+cargo test
+cargo run
+cargo run --help
+cargo run --help | find base
+cargo run --help | find dir
+fd
+whereis fd
+fd
+fd cli.rs
+fd
+cd ..
+fd
+cd ..
+fd
+ls
+cd fd
+fd
+ls
+cargo run
+ls
+cat build.rs
+cargo run
+ls
+cd target/debug/
+ls
+fd
+ls
+fdi
+alias fdi = ~/repos/fd/target/debug/fd
+cd ~
+fdi
+fd
+whereis fdi
+fdi --help
+fdi
+popd
+cd ..
+ls
+cd ~
+popd
+nvim .
+ls
+mv .gitignore .gitignore.old
+nvim .
+mv .gitignore.old .gitignore
+ls
+cd ~/.config/nvim
+nvim .
+cat ~/.gitignore
+cd ~
+mv .gitignore .gitignore.old
+nvim .
+cd repos/fd/
+ls
+nvim .
+cd ~
+nvim .
+git status
+systemctl --user status alarm.service
+systemctl --user status alarm.timer
+systemctl --user status alarm.service
+systemctl --user status alarm2.timer
+cd /media/moeru/my_dev
+ls
+glob *.jpeg
+mv (glob *.jpeg)
+mkdir Images
+mv glob *.jpeg Images
+mv *.jpeg Images
+ls
+mv *.jpg Images
+cd Images
+ls
+cd ~/Images
+cd ~/Pictures
+ls
+k icat (glob *.png)
+ls
+ln --help
+ls
+ln -s /media/moeru/my_dev/ Images
+cd Images/
+ls
+cd ..
+cd ~
+cd Pictures/
+ls
+ls | find png --invert
+ls | find Images --invert
+ls
+(ls | find Images --invert) Images
+mv (ls | find Images --invert) Images
+ls | find Images --invert
+(ls | find Images --invert)
+ls | find Images --invert
+(ls | find Images --invert)
+(ls | find Images --invert | get name)
+mv (ls | find Images --invert | get name) Images/
+(ls | find Images --invert | get name) | str
+(ls | find Images --invert | get name) | str join
+(ls | find Images --invert | get name) | str join " "
+mv (ls | find Images --invert | get name | str join " ") Images/
+(ls | find Images --invert | get name) | str join " "
+ls
+mv Screenshots/ Images/
+cd ..
+cd Pictures/Images/
+ls
+mv Screenshots/ ~/Pictures/
+ls
+cd ~
+cd ~/Pictures/
+mv Images/ ~
+ls
+cd ..
+ls
+mv Pictures/* Images/
+cd Images/
+ls
+cd Images/
+ls
+ln -s /media/moeru/my_dev/Images/ Images
+ls
+rm Images/ 
+ls
+cd ~
+ln -s /media/moeru/my_dev/Images/ Images/
+ls
+cd Images/
+ls
+mv *.png Images/
+mv *.jpg Images/
+mv *.jpeg Images/
+ls
+mv Photos-001/ Images/
+mv Screenshots/ Images/
+mv Webcam/ Images/
+ls
+cd ~
+ls
+rm Images/
+ls
+cd /media/moeru/my_dev
+cd Images/
+ls
+cd ~
+ls
+cd /media/moeru/my_dev
+mv Images/ Pictures
+cd ~
+cd Pictures/
+ls
+cd ..
+rm Pictures/
+ln -s /media/moeru/my_dev/Pictures/ Pictures/
+ln -s /media/moeru/my_dev/Pictures/ Pictures
+cd Pictures/
+ls
+popd
+yazi
+yazi --help
+ma nyazi 
+man yazi
+yazi
+swaycfg 
+yazi
+ln -s /media/moeru/my_dev my_dev
+cd my_dev
+ls
+zi Sak
+zi
+popd
+mpv `[smol] Sakurasou no Pet na Kanojo - S01E09 (BD 1080p HEVC Opus) [Dual Audio] [C40B2C85].mkv`
+zi CV
+ls
+./compile.sh cv_local.yml
+mv cv_main.pdf cv_local.pdf
+./compile.sh cv_main.yml
+okular cv_local.pdf
+nvim cv_local.yml
+./compile.sh cv_local.yml
+mv cv_main.pdf cv_local.pdf
+mv cv_main.pdf cv_local.pdf -f
+okular cv_local.pdf
+man typst
+typst --help
+typst compile cv_main.tmp.typ cv_a.pdf
+ls
+nvim compile.sh
+ls
+rm cv_local.pdf
+ls
+./compile.sh cv_local.yml
+ls
+./compile.sh cv_main.yml
+ls
+okular cv_main.pdf
+okular cv_local.pdf
+okular
+ls
+git status
+git add cv_local.pdf
+git status
+git add *
+git commit -m "modified compile.sh"
+git branch
+git push origin cv-simple
+git status
+mpv *
+ls
+qbittorrent
+cd ~/Pictures/Webcam/
+ls
+k icat *
+cd ~/.config/systemd/
+nvim alarm.timer
+ls
+cd user
+nvim alarm.timer
+nvim alarm2.timer
+systemctl --user daemon-reload
+systemclt start alarm.timer
+systemctl --user start alarm.timer
+systemctl --user start alarm2.timer
+systemctl --user status alarm2.timer
+systemctl --user status alarm.timer
+bluetoothctl 
+cd my_dev
+ls
+cd ~
+z cV
+ls
+k themes Acme
+speedtest-rs
+cd /media/moeru/my_dev
+ls
+yazi
+cd Downloads/
+qrencode --help
+config history
+nvim ~/.config/nushell/history.txt
+zbarimg `codigo QR WhatsApp Image 2023-11-23 at 09.27.43.jpeg`
+bluetoothctl 
+cd scripts/
+./bluetooth.sh
+bluetoothctl 
+ls
+nvim ~/.config/nushell/history.txt
+ls
+nvim bluetooth.sh
+cd scripts/
+nvim blueE
+ls
+nvim ~/.bash_history
+bash
+k ssh hacker@dojo.pwn.college
+ssh hacker@dojo.pwn.college
+sshfs 
+man sshfs
+bash
+bash
+ls 
+ls -l
+ls 
+cd projects/
+ls
+whereis yazi
+readelf
+readelf ~/.cargo/bin/yazi
+readelf -a ~/.cargo/bin/yazi
+readelf -a ~/.cargo/bin/yazi | bat
+readelf -a ~/.cargo/bin/yazi | less
+cat /proc/self/maps
+man gcc statis
+man gcc static
+ssh hacker@dojo.pwn.college
+bash
+k themes Catppuccin
+bash
+aa
+bash
+cd Downloads/
+ls
+ls | sort-by modified 
+okular `Proyectos La Camara de Los Secretos de EC.pdf`
+yazi
+cd my_dev/
+ls
+ls | sort-by modified 
+yazi
+bash
+vim ~/.config/systemd/user/alarm.timer
+vim ~/.config/systemd/user/alarm2.timer
+vim ~/.config/systemd/user/alarm2.service
+vim ~/.config/systemd/user/alarm.timer
+vim ~/.config/systemd/user/alarm2.timer
+systemctl --user daemon-reload
+systemctl --user enable alarm.timer
+systemctl --user enable alarm2.timer
+systemctl --user status
+systemctl --user status alarm.timer
+systemctl --user status alarm2.timer
+cd ~/.config/systemd/
+ls
+cd user/
+nvim alarm.service
+nvim ~/alarms/play_alarm.sh
+nvim ~/alarms/play_alarm2.sh
+nvim ~/alarms/play_alarm.sh
+nvim ~/alarms/play_alarm2.sh
+nvim alarm2.timer
+systemctl --user daemon-reload
+systemclt start alarm.timer
+systemctl --user start alarm2.timer
+systemctl --user start alarm.timer
+systemctl --user status alarm2.timer
+k themes Acme
+systemctl --user status alarm2.timer
+bluetoothctl 
+./bluetooth.sh
+cd scripts/
+./bluetooth.sh
+bluetoothctl 
+systemctl --user status alarm2.timer
+systemctl --user status alarm.timer
+cd scripts/
+ls
+cd ~/.config/systemd/
+cd user
+ls
+nvim alarm2.timer
+nvim alarm.timer
+k themes CE
+k themes Catppuccin
+vim ~/.config/systemd/user/alarm2.timer
+vim ~/alarms/play_alarm.sh
+systemctl --user status alarm.service
+vim ~/.config/systemd/user/alarm2.timer
+vim ~/.config/systemd/user/alarm.timer
+~/alarms/play_alarm.sh
+systemctl --user daemon-reload
+vim ~/.config/systemd/user/alarm.timer
+systemctl --user enable alarm2.timer
+systemctl --user enable alarm1.timer
+systemctl --user enable alarm.timer
+systemctl --user status alarm.service
+cd nu/
+ls
+nvim .
+nvim pull_aoc_input.nu
+http get "https://adventofcode.com/2015/day/1/input" 
+http get "https://codember.dev/data/message_02.txt" | split chars
+http get "https://adventofcode.com/2015/day/1/input" | split chars
+curl https://adventofcode.com/2015/day/1/input
+sudo apt install libssl-dev
+rustup update
+cargo install aoc-cli
+aoc-cli
+aoc
+aoc --help
+cd ~/.config/
+ls
+nvim adventofcode.session
+popd
+ls
+aoc 
+aoc --help
+aoc download --help
+ls
+rm pull_aoc_input.nu
+aoc download --day 1 --year 2015 
+ls
+cat input
+ls
+cat puzzle.md
+rm puzzle.md
+rm input
+cd ~/projects/
+mkdir aoc 
+cd aoc
+mkdir 2015
+cd 2015/
+ls
+cargo new day1
+cd day1/
+ls
+cd ~/projects/harmonious_coloring/
+ls
+cd tests/
+ls
+vim tests.rs
+popd
+vim .
+ls
+aoc download --day 1 --year 2015 
+ls
+vim .
+cargo add anyhow
+vim .
+cargo add utf8_chars
+nvim-config
+config nu
+config env
+nvim ~/.config/nvim/
+cd ~/.config/nvim/
+vim .
+cargo clippy
+cargo format
+cargo fmt
+nvim .
+cargo run
+nvim .
+aoc download --help
+nvim .
+cd ..
+cp day1 day2
+cp day1 day2 -r
+cd day2
+nvim .
+k themes Acme
+k themes Catppuccin
+zi aoc
+carog new day2
+cargo new day2
+ls
+rm day2/ -r
+cd ~
+zi 2015
+cd ~
+z 2015
+ls
+cd day2
+nvim .
+power on
+bluetoothctl 
+cd Pictures/
+ls
+ls | where name start-with
+where
+help where
+where
+ls | find tumblr
+ls | find (i?)tumblr
+ls | find tumblr
+yazi 
+mkdir wp
+cd wp
+cd ..
+mv (ls | find tumblr) wp
+glob tumblr
+glob tumblr*
+mv glob tumblr* wp
+mv glob tumblr* 
+mv glob (tumblr* )
+mv (glob tumblr*)
+mv (ls | find tumblr | get name | str join " ") wp
+ls
+mv (ls | find tumblr | get name | str join " ") wp
+ls | find tumblr | get name | str join " "
+mv (ls | find tumblr | get name | str join " ") wp
+mv (ls | find tumblr | get name | str join " ") 
+mv (ls | find tumblr | get name | str join " ") wp
+wp
+cd wp
+cd ..
+mv (ls | find tumblr | get name | str join " ") wp
+yazi
+swaycfg
+cd ~/nu/
+nvim .
+ls
+help touch 
+touch config-files.nu
+ls
+mv config-files.nu goto-config-files.nu
+nvim goto-config-files.nu
+ls 
+nvim 30-dir-stack.nu
+source goto-config-files.nu
+nvimcfg 
+popd
+cd ~
+cd .config/nushell/nu
+nvimcfg 
+vim goto-config-files.nu
+config env
+source ~/.config/nushell/env.nu
+vimcfg
+vimcfg 
+config env
+nvim ~/nu/goto-config-files.nu
+source ~/nu/goto-config-files.nu
+vimcfg
+cd ~/nu/
+ls
+vim mod.nu
+vim goto-config-files.nu
+vimcfg
+config env
+source ~/.config/nushell/env.nu
+vimcfg
+vim ~/nu/goto-config-files.nu
+vimcfg
+config env
+vimcfg
+vim ~/nu/goto-config-files.nu
+config nu 
+vim ~/nu/goto-config-files.nu
+vimcfg
+nvimcfg
+source ~/nu/
+source ~/nu
+source ~/nu.old/mod.nu
+vimcfg
+nvimcfg
+nvim ~/.config/nvim/
+ls
+bat input
+rm input puzzle.md
+z day2
+cargo add nom
+nvim .
+nvim 
+yazi
+cd ~/.config/systemd/user
+ls
+cp alarm.timer alarm3.timer
+cp alarm.service alarm3.service
+nvim alarm.service
+nvim alarm3.service
+nvim alarm3.timer
+systemctl --user daemon-reload
+systemctl --user enable alarm3.timer
+systemctl --user start alarm3.timer
+8141650944
+nvim .
+cd ..
+gh repo clone ChristopherBiscardi/advent-of-code
+cd advent-of-code/
+ls
+cd 2022/rust/day-04/
+ls
+cd my_dev/
+ls
+cd (ls | find saku)
+ls | find saku
+cd `[smol] Sakurasou no Pet na Kanojo (BD 1080p HEVC Opus)/`
+ls
+cd ~/.config/
+mkdir mpv
+cd mpv
+ls
+git clone 'https://github.com/Ajatt-Tools/videoclip.git' ~/.config/mpv/scripts/videoclip
+ls
+cd scripts/
+ls
+cd videoclip/
+ls
+cd ..
+ls
+popd
+mpv *
+ls
+cd /home/moeru/Videos/
+ls
+mpv ` Sakurasou no Pet na Kanojo S01E09 BD 1080p HEVC Opus _12m47s016ms-13m06s452ms.mp4`
+nvim .
+cd ..
+ls
+cp 2022/rust/day-04 ../2015/ 
+cp 2022/rust/day-04 ../2015/  -r
+ls
+cd ..
+ls
+cd 2015/
+ls
+cp day2/src/main.rs day-04/src/bin
+nvim .
+cd day-04/
+nvim .
+cargo add anyhow
+nvim .
+cargo fmt
+nvim .
+cargo fmt
+nvim .
+cargo run --bin part-1
+cargo fix --lib -p day-04
+ls
+cd ~
+ls
+nvim .gitignore.old
+popd
+cargo fix --lib -p day-04
+cargo fix --lib -p day-04 --allow-dirty
+ls
+nvim .
+cargo run --bin part-1
+nvim .
+rm src/bin/main.rs
+cargo run --bin part-1
+nvim .
+cd ..
+ls
+rm day2 -r 
+mv day-04 day2
+nvim .
+cd day2
+nvim .
+aoc download --day 2 --year 2015
+ls
+rm input.txt 
+nvim .
+cargo run --bin part-1
+nvim .
+ls
+nvim .
+cargo run --bin part-1
+cargo run --bin part-2
+nvim .
+ls
+cargo update
+nvim .
+cargo update
+cargo run --bin part-2
+nvim .
+cd ..
+ls
+cargo new day3
+nvim .
+rm day3/ -r
+cargo new day3
+ls
+nvim .
+nvim day2/
+cd day3
+nvim .
+cd ..
+cd day2
+nvim .
+cd ../day3
+aoc download --day 3 --year 2015
+nvim .
+zi day2
+ls
+nvim .
+zi day3
+cd ..
+nvim .
+popd
+cd ..
+aoc download --day 4 --year 2015
+ls
+cat input
+rm input puzzle.md
+ls
+cargo new day4
+cd day4/
+mkdir src/bin
+ls
+cd src/
+mv main.rs lib.rs
+cd bin/
+touch part-1.rs
+touch part-2.rs
+cd ..
+nvim lib.rs
+ls
+cd ..
+nvim .
+cargo add md5
+ls
+cd ..
+cd day4
+htop
+cargo test
+cargo test --nocapture
+cargo test -- --nocapture
+cargo run --bin part-1
+cargo run --release --bin part-1
+vim .
+cargo run --release --bin part-2
+python3
+nvim .
+ipython
+k themes Acme
+21
+python3
+k themes Catppuccin
+yazi
+swaycfng
+swaycfg
+man 5 sway
+man 5 sway-output
+cd ~/Pictures/wp/
+ls
+k icat *
+swaycfg
+ls
+k icat melody.jpg
+mv melody.jpg melody1.jpg
+ls
+k icat tumblr_9f1f4bbdb3c8c4c1192a54d59616a47b_10a6f36a_1280.jpg
+k icat tumblr_9f1f4bbdb3c8c4c1192a54d59616a47b_10a6f36a_1280.jpg mymelody.jpg
+mv tumblr_9f1f4bbdb3c8c4c1192a54d59616a47b_10a6f36a_1280.jpg mymelody.jpg
+ls
+./wl-color-picker/
+ls
+./wl-color-picker.sh
+man 5 sway-output
+ls
+cd ~/Pictures/wp/
+convert 
+convert --trim mymelody.jpg mymelody-out.jpg
+ls
+convert --trim mymelody.jpg mymelody-out.jpg
+ls
+k icat mymelody-out.jpg
+k icat mymelody.jpg
+man convert
+ls
+convert --trim mymelody.jpg mymelody-out.jpg
+convert -trim mymelody.jpg mymelody-out.jpg
+k icat mymelody-out.jpg
+rm mymelody-out.jpg
+k icat mymelody-out.jpg
+convert -trim mymelody.jpg mymelody-out.jpg
+yazi 
+info melody1.jpg
+file mymelody-out.jpg
+file mymelody.jpg
+yazi 
+identify mymelody.jpg
+rm mymelody-out.jpg
+convert mymelody.jpg -crop 890x890+10+10 mymelody-out.jpg
+k icat mymelody-out.jpg
+rm mymelody-out.jpg
+convert mymelody.jpg -crop 880x880+10+10 mymelody-out.jpg
+k icat mymelody-out.jpg
+k icat mymelody.jpg
+ls
+nvim convert.nu
+nvim crop.nu
+swaycfg
+nvim ~/.config/waybar/
+ls
+cd ~/.config/waybar/
+ls
+nvim .
+ls
+cp style.css style.css.old
+nvim config
+cp style2.css style.css
+ls
+fastfetch/
+ls
+./run.sh
+ls
+cd build/
+ls
+./fastfetch
+k themes Acme
+k themes Catppuccin
+ls
+nvim .
+yazi
+cd Pictures/
+ls
+yazi
+ls
+cd Pictures/
+ls
+ls | sort-by modified 
+libreoffice `Módulo Alumno.pdf`
+cd ..
+ls
+mkdir Docuemnts
+cd Docuemnts/
+cd ..
+mv Docuemnts/ Documents
+cd Documents/
+ls
+okular `Downloads/Formato de solicitud.pdf`
+libreoffice `Downloads/Formato de solicitud.pdf`
+cd Documents/
+ls
+ls Documents/
+/media/moeru/my_dev/Documents/
+ls
+mkdir doc-castelac 
+mv * doc-castelac/
+mv Docuemnts/* .
+mv Documents/* .
+mv ~/Documents/* .
+ls
+cd ~
+cd Documents/
+ls
+cd ..
+rm Documents/
+ln -s /media/moeru/my_dev/Documents/ ~/Documents 
+cd Documents/
+ls
+podp
+popd
+nvim ~/.config/kitty/kitty.conf
+libreoffice (glob *.doc)
+vim .
+nvim .
+nvim ~/.config/kitty/kitty.conf
+ls
+nvim .
+ls
+cd ~/nu/
+ls
+nvim goto-config-files.nu
+source ~/nu.old/mod.nu
+kittycfg
+z projects/
+z day2
+nvim .
+k themes Acme
+k themes Catppuccin
+ls
+nvim .
+vim ~/.config/waybar/
+vim .
+ls
+cd Documents/
+ls
+glob *.doc
+cd doc-castelac/
+glob *doc
+okular glob *doc
+okular (glob *doc)
+cd ~/.config/sway/
+ls
+nvim maximize.sh
+chmod +x maximize.sh
+nvim config
+libreoffice  (glob *doc)
+yazi
+ls
+cd Documents/
+ls
+yazi
+ls
+cd doc-castelac/
+ls
+yazi
+ls
+yazi
+ls
+cd ~
+ls
+fd
+fd -i
+fd documentacion
+cd temp/documentacion-Cinvestav/
+ls
+cd documentos/ls
+cd documentos/
+ls
+yazi
+cp `TITULO DE LICENCIATURA.pdf` ~/Documents/doc-castelac/
+popd
+ls
+mv titulo.jpg kardex-licenciatura.jpg
+ls
+fd ~/CVB
+cd ~/CV_repos/CV/
+ls
+okular cv_main.pdf
+nvim cv_main.yml
+./compile.sh cv_main.yml
+okular cv_main.pdf
+cp cv_main.pdf ~/Documents/doc-castelac/
+cd ~/Documents/doc-castelac/
+cd ..
+ouch d doc-castelac/
+ouch c doc-castelac/
+ouch c doc-castelac docuemntacion.zip
+ls
+yazi
+ls
+man ouch
+ouch --help
+nautilus
+mv docuemntacion.zip documentacion.zip
+swaycfg
+cd ~/.config/sway/
+ls
+nvim sway-maximize.sh
+chmod +x sway-maximize.sh
+nvim config
+ls
+vim config
+nvim config
+nvim swaycfg
+swaycfg
+man 5 sway
+swaycfg 
+cd ~/.config/sway/
+swaycfg
+apt build-dep sway
+sudo apt build-dep sway
+sudo apt search sway
+sudo apt build-dep sway
+nvim /etc/apt/sources.list
+sudo nvim /etc/apt/sources.list
+sudo -E nvim /etc/apt/sources.list
+sudo -E nvim /etc/apt/sources.list.d/
+sudo apt build-dep sway
+sudo -E nvim /etc/apt/sources.list
+sudo apt build-dep sway
+sudo apt update
+sudo apt build-dep sway
+apt install glslang-tools libcairo2-dev libcap-dev libdbus-1-dev libdisplay-info-dev libevdev-dev libgdk-pixbuf2.0-dev libinput-dev libjson-c-dev libliftoff-dev libpam0g-dev libpango1.0-dev libpcre2-dev libpixman-1-dev libseat-dev libsystemd-dev libvulkan-dev libwayland-dev libwayland-egl1 libwlroots-dev libxcb-ewmh-dev libxkbcommon-dev meson pkgconf scdoc tree wayland-protocols
+sudo apt install glslang-tools libcairo2-dev libcap-dev libdbus-1-dev libdisplay-info-dev libevdev-dev libgdk-pixbuf2.0-dev libinput-dev libjson-c-dev libliftoff-dev libpam0g-dev libpango1.0-dev libpcre2-dev libpixman-1-dev libseat-dev libsystemd-dev libvulkan-dev libwayland-dev libwayland-egl1 libwlroots-dev libxcb-ewmh-dev libxkbcommon-dev meson pkgconf scdoc tree wayland-protocols
+cd repos
+git clone https://github.com/swaywm/sway.git
+cd sway
+git clone https://gitlab.freedesktop.org/wlroots/wlroots.git subprojects/wlroots
+ls
+nvim sway/desktop/xdg_shell.c
+ls
+nvim sway-make-fullscreen-maximize.diff
+git apply --stat sway-make-fullscreen-maximize.diff
+git apply --check sway-make-fullscreen-maximize.diff
+cd sway/desktop/
+ls
+cd ..
+ls
+git status
+git apply --check sway-make-fullscreen-maximize.diff
+git apply --stat sway-make-fullscreen-maximize.diff
+nvim .
+git apply --check sway-make-fullscreen-maximize.diff
+git apply --ignore-space-change --check sway-make-fullscreen-maximize.diff
+git apply --ignore-space-change --ignore-whitespace --check sway-make-fullscreen-maximize.diff
+git apply sway-make-fullscreen-maximize.diff
+patch -i sway-make-fullscreen-maximize.diff
+cd sway/desktop/
+nvim xwayland.c.rej
+nvim xwayland.c.orig
+cd ..
+ls
+git status
+rm desktop/xwayland.c.orig desktop/xwayland.c.rej
+ls
+git status
+nvim .
+cd ..
+mv sway/ sway-dev
+git clone https://gitlab.freedesktop.org/wlroots/wlroots.git
+sudo apt remove sway 
+ls
+sudo apt remove wlroots
+cd wlroots/
+meson build
+cd ..
+rm wlroots/ -r
+git clone https://gitlab.freedesktop.org/wlroots/wlroots.git subprojects/wlroots
+cd subprojects/
+meson build
+ls
+cd wlroots/
+meson build
+sudo apt upgrade libdrm
+sudo apt upgrade libdrm-dev
+sudo apt remove libdrm
+sudo apt remove libdrm-dev
+ls
+cd ../../
+cd sway-dev/
+ls
+mv libdrm-2.4.118.tar.xz ../subprojects/wlroots/
+poopd
+popd
+cd subprojects/wlroots/
+ouch d libdrm-2.4.118.tar.xz
+cd libdrm-2.4.118/
+ls
+mkdir build &&<\n>cd    build &&<\n><\n>meson setup --prefix=$XORG_PREFIX \<\n>            --buildtype=release   \<\n>            -Dudev=true           \<\n>            -Dvalgrind=disabled   \<\n>            ..                    &&<\n>ninja
+bash
+sudo apt install sway
+sudo apt update sway
+sudo apt upgrade sway
+sway -v
+cd ../../
+ls
+cd ..
+rm subprojects/ -r
+cd sway-dev/
+ls
+nvim .
+cd sway/
+meson build/
+ls
+meson build
+cd ..
+meson build
+ls
+git clone https://gitlab.freedesktop.org/wlroots/wlroots.git subprojects/wlroots
+meson build
+cd subprojects/wlroots/
+ls
+cd ..
+meson build
+cd sway/
+meson build
+meson build/
+meson setup build
+meson setup
+meson build
+sudo apt search wlroots
+cd ../..
+ls
+ouch sway-1.8.1.zip
+ouch d sway-1.8.1.zip
+cd sway-1.8.1/
+ls
+meson build 
+ls
+nvim .l
+ls | find .l
+waydroid --help
+waydroid status
+waydroid app list
+waydroid app
+waydroid app -h
+waydroid app launch
+waydroid app list
+waydroid app intent
+waydroid first-launch
+waydroid app list
+waydroid 
+waydroid -h
+waydroid init
+waydroid status
+waydroid prop
+waydroid prop -h
+waydroid first-launch
+htop
+waydroid first-launch
+sudo systemctl list
+sudo systemctl service list
+sudo systemctl services list
+sudo systemctl  list
+sudo systemctl list-services
+systemctl --h
+systemctl --help
+sudo systemctl status
+sudo systemctl restart waydroid
+sudo systemctl restart waydroid.service
+sudo systemctl restart waydroid-container.service
+waydroid app list
+waydroid app list | find insta
+waydroid app --help
+waydroid app launch com.instagram.app
+waydroid app list | find insta
+waydroid app launch com.instagram.android
+waydroid first-launch
+waydroid --help
+waydroid status
+zi CV_repos
+nvim cv_main.yml
+ls
+cd CV
+nvim cv_main.yml
+./compile.sh cv_main.yml
+okular cv_main.pdf
+swaycfg 
+cd swaycfg
+cd ~/.config/sway/
+nvim .
+ls
+cd rpos
+cd repos
+git clone https://github.com/WillPower3309/swayfx#roadmap
+gh repo clone WillPower3309/swayfx
+sudo apt install nix
+sh <(curl -L https://nixos.org/nix/install) --daemon
+bash
+nix-shell -p nix-info --run "nix-info -m"
+bash
+bash
+cd repos/swayfx/
+ninja -C build
+cd ..
+rm swayfx/
+rm swayfx/ 0r
+rm swayfx/ -r
+ls
+gh repo clone WillPower3309/swayfx
+cd swayfx/
+meson build
+cd build/meson-logs/
+sudo apt install wlroots
+nvim meson-log.txt
+sudo apt install libwlroots-dev
+cd repos/swayfx/
+meson build
+sudo apt install libwlroots-examples
+meson build
+lss
+ls
+man meson 
+meson build/
+meson setup --reconfigure
+meson setup --reconfigure .
+meson setup --reconfigure 
+ls
+ls | find build
+git status
+rm build/ -r
+meson build/
+sudo apt install fish
+meson build
+ninca -C build/
+ninja -C build/
+./build/sway/sway
+cd ../sway-dev/
+meson build
+ls
+cd ..
+cd sway-1.8.1/
+meson build
+cd ..
+cd swayfx/
+ls
+nvim .
+ls
+cd swayfx/
+cd repos/swayfx/
+ls
+./build/sway/sway
+cd repos/swayfx/
+./build/sway/sway
+sway
+Exec=env WLR_RENDERER=pixman ./build/sway/sway
+nvim 
+bash
+nvim .
+ls
+cd repos/swayfx/
+ls
+cd ..
+ls
+cd sway-dev/
+ls
+cd ..
+ls
+cd sway-dev/
+ls
+cp sway-make-fullscreen-maximize.diff ../swayfx/
+cd ../swayfx/
+cat sway-make-fullscreen-maximize.diff
+bat sway-make-fullscreen-maximize.diff
+nvim .
+meson build
+ninja -C build/
+./build/sway/sway
+ls
+meson build
+nvim .
+ls ./build/sway/sway
+./build/sway/sway
+ls
+$user
+whoami
+swaycfg 
+ls
+htop
+ls
+cd ~/.config/nushell/
+ls
+cd ~/.config/sway/
+nvim scripts/
+swaymsg fullscreen
+nvim ~/.config/sway/maximize.sh
+ls
+cd ~
+ls
+poopd
+popd
+cd ~/.config/sway/
+ls
+touch fullscreeh.sh
+nvim fullscreeh.sh
+chmod +x fullscreeh.sh
+nvim fullscreeh.sh
+swaymsg fullscreen<\n>
+cat /tmp/fullscreen
+nvim fullscreeh.sh
+cat /tmp/fullscreen
+swaycfg 
+nvim .
+./build/sway/sway
+lslsls
+ls
+./build/sway/sway --help
+./build/sway/sway -d
+./build/sway/sway -d &> /tmp/dbgsway
+./build/sway/sway -d 2> /tmp/dbgsway
+lals
+bash
+swaymsg -t get_workspaces --raw
+swaymsg -t get_tree | jq 'recurse(.nodes[]) | select(.nodes[].focused == true).layout'
+swaymsg -t get_tree | jq 'recurse(.nodes[]) | select(.nodes[].focused == true).layout'
+swaymsg -t get_workspaces | jq '.[] | select(.focused==true) | .rect.width'
+swaymsg -t get_workspaces | jq '.[] | select(.focused==true)'
+swaymsg -t get_tree | jq '.. | (.nodes? // empty)[] | select(.type == "workspace" and .id == 4) | (.nodes? // empty)[] | select(.pid) | .rect | "\(.x),\(.y) \(.width)x\(.height)"' | slurp
+swaymsg -t get_tree | jq '.. | (.nodes? // empty)[] | select(.type == "workspace" and .id == 4) | (.nodes? // empty)[] | select(.pid) | .rect | "\(.x),\(.y) \(.width)x\(.height)"' 
+swaymsg -t get_outputs | jq -r '.[] | select(.active) | .rect | "\(.x),\(.y) \(.width)x\(.height)"' | slurp
+swaymsg -t get_tree | jq -r \
+> '.. | (.nodes? // empty)[] | select(.pid and .visible) | {name} + .rect<\n>  | "\(.x),\(.y) \(.width)x\(.height) \(.name)"'
+bash
+nvim /tmp/tree
+swaymsg -t get_tree | save /tmp/tree
+cd ~
+cd .
+cd 6.824/
+cd CV_repos/
+nvim /tmp/tree
+swaymsg -t get_tree | save /tmp/tree
+swaymsg -t get_tree | save /tmp/tree -f
+nvim /tmp/tree
+swaymsg -t get_tree | save /tmp/tree -f
+nvim /tmp/tree
+swaymsg -t get_tree | save /tmp/tree2 -f
+nvim /tmp/tree2
+swaymsg -t get_tree | save /tmp/tree2 -f
+nvim /tmp/tree2
+swaymsg -t get_tree | save /tmp/tree2 -f
+nvim /tmp/tree2
+swaymsg -t move workspace 
+swaymsg -t move workspace to 3
+man swaymsg
+swaymsg -t move workspace to scratchpad
+swaymsg -t move windows to sratchpad
+man swaymsg
+swaymsg move windows to sratchpad
+swaymsg move container to workspace next
+swaymsg move window to sratchpad
+swaymsg move window to scratchpad
+man 5 sway
+swaymsg mark --add mymark
+man 5 sway
+swaymsg "mark --add mymark"
+swaymsg "move container to mark mymark"
+man 5 sway
+saymsg "move container to mark mymark"
+swaymsg "move container to mark mymark"
+swaycfg 
+swaymsg move window to mark mycontainer
+swaymsg -t get_tree | save /tmp/tree2 -f
+nvim /tmp/tree2
+man 5 sway
+swaymsg for_window [mark=mycontainer] move container to scratchpad
+man 5 sway
+swaymsg for_window [con_mark='mycontainer'] move container to scratchpad
+swaymsg for_window [con_mark="mycontainer"] move container to scratchpad
+man 5 sway
+swaymsg for_window [con_id=20] move container to scratchpad
+man 5 sway
+swaymsg for_window [con_id=20] move container to scratchpad
+man 5 sway
+swaymsg for_window [con_id=20] move container to workspace 4
+swaymsg for_window [con_mark="mycontainer"] move container to workspace 4
+man 5 sway
+swaymsg [con_mark="IRC"] focus
+swaymsg [con_mark="mycontainer"] focus
+swaymsg for_window [con_mark="mycontainer"] focus
+man 5 sway
+swaymsg for_window [con_mark="mymark"] focus
+man 5 sway
+swaymsg for_window [title="."] title_format "<b>%title</b> (%app_id)"
+swaymsg for_window [con_mark="mymark"] focus
+man 5 sway
+swaymsg for_window [con_mark="mymark"] focus
+swaymsg " [con_mark="mymark"] focus"
+swaymsg "for_window [con_mark="mymark"] focus"
+swaymsg " [con_mark="mymark"] focus"
+swaymsg "for_window [con_mark="mycontainer"] move container to scratchpad"
+swaymsg "for_window [con_mark="mycontainer"] move container to workspace 4"
+swaymsg "for_window [con_mark="mycontainer"] move container to workspace "
+swaymsg move container to scratchpad
+swaymsg "move container to scratchpd"
+swaymsg "move container to scratchpad"
+swaymsg " [con_mark="mycontainer"] move container to workspace "
+swaymsg "[con_mark="mycontainer"] move container to workspace 4"
+swaymsg "for_window [con_mark="mycontainer"] move container to workspace 4"
+swaymsg " [con_mark="mycontainer"] move container to scratchpad"
+swaymsg "[con_mark="mycontainer"] move container to scratchpad"
+swaymsg "[con_mark="mycontainer"] move container to workspace 4"
+mark
+bluetoothctl 
+cd projects/
+ls | sort-by modified 
+cd yazi
+git status
+cd ..
+bluetoothctl 
+cd Pictures/
+ls
+cd Screenshots/
+yazi
+waydroid first-launch
+python3
+cd ~/Downloads/
+yazi
+waydroid first-launch
+cd Downloads/
+sudo apt install ./discord-0.0.36.deb
+waydroid first-launch
+popd
+ls
+yazi
+a
+ls
+nvim /tmp/tree2
+nvim ~/.config/sway/maximize.sh
+nvim ~/.config/sway/config
+bash
+nvim ~/.config/sway/config
+cd projects/aoc/
+ls
+cd 2015/
+ls
+cd day1/
+ls
+nvim .
+cd ..
+cd day2/
+nvim .
+mkdir ../template
+cp src/ ../template
+cp src/ ../template -r
+cd ../template/
+ls
+nvim src/
+cd ..
+nvim .
+nvim template/
+nvim template/src/bin/part-2.rs
+nvim mk-aoc-project.sh
+chmod +x mk-aoc-project.sh
+./mk-aoc-project.sh day7
+cd day7/
+ls
+cd src
+ls
+cd src/
+ls
+cd ..
+rm day7/ -r
+nvim mk-aoc-project.sh
+./mk-aoc-project.sh day7
+nvim mk-aoc-project.sh
+source './mk-aoc-project.sh day7'
+rm day7/ -r
+./mk-aoc-project.sh day7
+cd day7/
+nvim .
+rm ../template/src/lib.rs
+cp src/lib.rs ../template/src/
+python3
+cd ~/my_dev/
+cd `[smol] Sakurasou no Pet na Kanojo (BD 1080p HEVC Opus)/`
+ls
+zi aoc
+ls
+mkdir 2023
+cd 2015
+ls
+cp mk-aoc-project.sh template/ -r ../2023/
+popd
+cd 2023
+ls
+mk-aoc-project.sh day1
+./mk-aoc-project.sh day1
+cd day1
+aoc download --day 1 --year 2023
+nvmi .
+zi 2023
+cd day1
+cargo test 
+cargo run --release --bin part-1
+ls
+cd ../../2015/day4/
+nvim .
+cd ..
+nvim day3/
+cd day2/
+nvim 
+:q
+k themes Acme
+nvim 
+k themes Catppuccin
+nvim .
+cd ../../2023/
+cd day1/
+cargo test
+RUST_BACKTRACE=1;cargo test
+$env.RUST_BACKTRACE = 1
+cargo test
+notif_history 
+cargo test
+cargo build
+cargo test
+vim .
+cargo test
+mpv *
+cargo test
+bluetoothctl info
+nvim /tmp/aaa
+cargo test
+cargo build --release --bin part2
+cargo build --release --bin part-2
+cargo run --release --bin part-2
+cargo run --release --bin part-1
+nvim .
+pushd ~/.config/nvim/
+nvim .
+popd
+ls
+cd day1
+ls
+rm \
+ls
+cat input
+nvim .
+cargo add ascii
+nvim .
+cd ..
+./mk-aoc-project.sh day2
+cd day2
+nvim .
+cargo fmt
+cd ../day2
+aoc download --day 2 --year 2023
+cargo run --release --bin part-1
+cargo test 
+cargo clippy
+cargo run --release --bin part-1
+cargo run --release --bin part-2
+cargo run  --bin part-2
+cargo run --debug  --bin part-2
+cargo run  --bin part-2
+cargo tst
+cargo test
+cargo run  --bin part-2
+cargo run  --bin --release part-2
+cargo run  --release --bin part-2
+cargo fmt
+wget https://files.catbox.moe/ctkbqj.txt
+cargo run  --release --bin part-2
+cargo test
+nvim .
+time cargo run  --release --bin part-2
+ls
+target/release/part-2
+time target/release/part-2
+man time
+time --help
+time target/release/part-2
+bash
+nvim .
+ls
+cargo build --release --bin big
+cargo build --release --bin big_day2
+bash
+cargo build --release --bin big_day2
+bash
+nvim .
+bluetoothctl 
+zi denn
+zi deni
+ls
+cd Posts/
+cd Videos/
+ls
+cd ..
+cd Images/
+yazi 
+cd ..
+cd Videos/
+mpv *
+zi den
+bluetoothctl 
+nvim 
+zi day2
+nvim .
+zi 2023
+la
+ls
+./mk-aoc-project.sh day3
+cd day3
+nvim .
+bluetoothctl 
+zi 2023/day3
+dunstctl set-paused toggle
+zi day3
+cargo test
+aoc download --day 3 --year 2023
+cargo run  --release --bin part-1
+nvim 
+dunstctl set-paused toggle
+math product
+math product 1 2
+math product 1
+2 math product 1
+[755 598] | math product 
+[467 35] | math product 
+[755 598] | math product 
+notif_history 
+python3
+cargo run  --release --bin part-2
+nvim .
+nvim 
+notif_history 
+zi 2023
+./mk-aoc-project.sh day4
+cd day4/
+bluetoothctl 
+zi 2023
+cargo test
+cd day4/
+cargo test
+aoc download --day 4 --year 2023
+cargo run  --release --bin part-1
+yazi
+yazi
+sudo apt install swayimg
+cd Pictures/
+swayimg 0fc68e71-24d5-48a9-b18a-20e4f04ecd30.jpeg
+k icat 0fc68e71-24d5-48a9-b18a-20e4f04ecd30.jpeg
+cargo test
+cargo run  --release --bin part-2
+waydroid first-launch
+cd ..
+nvim a
+mv a a.hs
+waydroid first-launch
+nvim a.hs
+nvim .
+bluetoothctl 
+zi day3
+systemctl --user stop alarm.timer
+systemctl --user stop alarm2.timer
+systemctl --user stop alarm2.service
+systemctl --user stop alarm1.service
+systemctl --user stop alarm2.service
+systemctl --user stop alarm1.service
+systemctl --user stop alarm2.service
+nvim 
+nvim
+python3
+cd Downloads/
+brave-browser `WhatsApp Video 2023-12-05 at 7.22.58 PM.mp4`
+nvim .
+z 2023
+ls
+nvim mk-aoc-project.sh
+nvim template/src/lib.rs
+bluetoothd 
+bluetoothctl 
+cd Downloads/
+sudo apt install ./discord-0.0.37.deb
+zi 2023
+./mk-aoc-project.sh day5
+rm day5 -r 
+nvim mk-aoc-project.sh
+./mk-aoc-project.sh day5
+cd day5
+nvim 
+dunstctl set-paused toggle
+notif_history 
+dunstctl set-paused toggle
+notif_history 
+dunstctl set-paused toggle
+notif_history 
+dunstctl set-paused toggle
+notif_history 
+cd Pictures/
+cd Screenshots/
+yazi
+nvim ~/.config/sway/config
+nvim 
+waydroid first-launch
+zi 2023
+cd day3
+nvim .
+cd ..
+cd day2
+nvim .
+nvim 
+nvim .
+cargo add itertools
+power on
+bluetoothctl 
+zi 2023/day5
+cd Downloads/
+obs 
+apt install wf-recorder
+sudo apt install wf-recorder
+wf-recorder -g "$(slurp)"
+slurp
+wf-recorder -g "$(slurp)"
+mpv recording.mkv
+rm recording.mkv
+wf-recorder -g "$(slurp)"
+rm recording.mkv
+slurp
+wf-recorder --help
+wf-recorder --help| find -f
+wf-recorder --help| find "-g"
+notif_history 
+notif_history | find lo sé
+rm recording.mkv
+wf-recorder
+wf-recorder -f uno.mkv 
+mpv uno.mkv
+bluetoothctl 
+waydroid first-launch
+bluetoothctl 
+python3
+zi 2023/day5
+ls
+aoc download --day 5 --year 2023
+cargo test
+nvim .
+bluet
+bluetoothctl 
+waydroid first-launch
+nvim .
+ls
+cd Downloads/Comic_Neue/
+ls
+cd..
+cd ..
+zi 2023/day5
+ls
+zi 2023/day5
+cargo test
+ls
+cargo test
+env.RUST_BACKTRACE=1
+$env.RUST_BACKTRACE=1
+env 
+$env.RUST_BACKTRACE=1
+$env.RUST_BACKTRACE = 1
+cargo test
+rustup doc
+kk
+cargo test
+cargo test -- --nocapture
+zi projects
+ls
+ls | sort-by modified 
+fd
+ls | sort-by modified | fd
+ls | fd
+fd
+ls | sort-by modified 
+cd programming_concepts/
+ls
+cd src/
+ls
+nvim main.rs
+cd ..
+cd medians_stream/
+ls
+nvim .
+ls -R
+du
+du | find .py
+bash
+ping www.google.com
+speedtest-rs
+bluetoothctl 
+cd Music/
+cd my_dev
+cd Documents/
+ls
+ls | find cofing
+ls | find coding
+ls ~/Downloads/ | find coding
+cd ..
+ls 
+ls | find coding
+mv `Gayle Laakmann McDowell - Cracking the Coding Interview_ 189 Programming Questions and Solutions-CareerCup (2015).pdf` Documents/
+cd Documents/
+dunstctl set-paused toggle
+pushd ~/repos
+gh repo clone skapoor8/python
+ls
+cat input
+cargo run  --release --bin part-1
+ls
+cd python/
+ls
+ls
+aoc download --day 5 --year 2023
+rm puzzle.md
+aoc download --day 5 --year 2023
+nvim .
+python3 -m pip install pytest
+sudo apt install python3-pytest
+pytest-3 
+ls
+pushd ~/my_dev/
+ls | find *.pdf
+ls 
+cd Documents/
+ls
+ls ~/Downloads/ | find algo
+mv ~/Downloads/Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.MIT.Press.9780262046305.EBooksWorld.ir.pdf . 
+ls
+ls | find .tar
+ouch l python-3.12.1-docs-html.tar.bz2
+ouch l python-3.12.1-docs-html.tar.bz2 | count
+ouch l python-3.12.1-docs-html.tar.bz2 | lenght
+ouch l python-3.12.1-docs-html.tar.bz2 | str length 
+ouch d python-3.12.1-docs-html.tar.bz2
+cd python-3.12.1-docs-html/
+ls
+firefox index.html
+cd ..
+okular Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.MIT.Press.9780262046305.EBooksWorld.ir.pdf
+popd
+gh repo clone OmkarPathak/Data-Structures-using-Python
+mpv *
+bluetoothctl 
+dunstctl set-paused toggle
+cd Downloads/
+ls
+ls | find .mp4
+ls | find .mkv
+cd ..
+cd Documents/
+ls
+ls | find .mkv
+ls | find .mp4
+ls | sort-by size
+cd ..
+ls | sort-by size
+cd ~
+ls | sort-by size
+fd 
+fd | find mp4
+cd ..
+cd ~
+fd | find mkv
+cd Documents/
+fd | find mkv
+fd | find mp4
+cd ..
+cd ~
+ls
+fd | find mp4
+cd Downloads/
+fd | find mp4
+mpv `WhatsApp Video 2023-12-05 at 7.22.58 PM.mp4`
+cd ..
+fd | find mp4
+ls | find z74
+fd | find mp4
+mpv out_vid.mp4
+fd | find mp4
+yazi
+ls | find z74
+fd | find z7
+fd | find z74
+fd | find mp4
+cd Documents/
+fd | find mp4
+cd ~
+cd Downloads/
+fd | find mp4
+;ls
+mkv 962152f2169736a2249b9ef8e4da48181c7b1479770a93e809c4399e0aa1a48a.m4v?f=d6ed314d-a913-4063-ba9b-6969e4b424a8.m4v
+mpv 962152f2169736a2249b9ef8e4da48181c7b1479770a93e809c4399e0aa1a48a.m4v?f=d6ed314d-a913-4063-ba9b-6969e4b424a8.m4v
+dunstctl set-paused toggle
+cd repos/
+gh repo clone black-shadows/Cracking-the-Coding-Interview
+44 117 132
+1 84 122 131
+cd repos
+ls
+mkdir cracking_coding_interview
+cd cracking_coding_interview/
+nvim linkedlist.py
+nvim a
+nvim list.py
+okular `Gayle Laakmann McDowell - Cracking the Coding Interview_ 189 Programming Questions and Solutions-CareerCup (2015).pdf`
+nvim .
+cd repos
+cd 
+zi cracking_code
+cd repos/cracking_coding_interview/
+htop
+nvim linked.py
+cd ~/projects/
+fd | find py
+cd contact-app/
+ls
+nvim .
+cd ..
+mkdir cracking_coding_interview
+cd cracking_coding_interview/
+cd repos/
+cd ~/projects/
+cp contact-app/app.py cracking_coding_interview/
+cd cracking_coding_interview/
+cd repos/cracking_coding_interview/
+ls
+nvim --headless main.py
+nvim 
+nvim --clean main.py
+nvim ~/.config/nvim/after/
+nvim ~/.config/nvim/
+nvim main.py
+nvim ~/.config/nvim/
+nvim ~/.config/nvim/lua/myconfig/packer.lua
+nvim .
+nvim a
+nvim asd
+cd repos/cracking_coding_interview/
+nvim 
+cd 
+zi 2023/day5
+nvim .
+nvim ~/.config/nvim/init.lua
+whereis python23
+whereis python3
+nvim ~/.config/nvim/
+python3 -m pip install --user --upgrade pynvim
+sudo apt install python3-pynvim
+python3
+nvim --headless main.yp
+htop
+nvim --headless main.py
+nvim 
+cd repos/cracking_coding_interview/
+nvim 
+ls
+cd repos/cracking_coding_interview/
+nvim --clean main.py
+nvim ~/.config/nvim/
+nvim a
+nvim a.hs
+cd projects/aoc/2023/day5/
+nvim .
+cd ..
+ls
+cd ..
+ls 
+cd ..
+cp contact-app/* cracking_coding_interview/
+cp contact-app/* cracking_coding_interview/ -r
+cd cracking_coding_interview/
+nvim app.py
+ls
+cd __pycache__/
+ls
+cd ..
+cd templates/
+ls
+cd ..
+cd cracking_coding_interview/
+ls
+nvim a.py
+ls
+cat requirements.txt
+ls -a
+cd .venv/
+ls
+cd ..
+mkdir crack
+cd crack/
+python3 -m venv .venv
+cd projects/crack/
+nvim pyproject.toml
+nvim a.py
+cd Documents/
+ls
+nvim main.py
+nvim linked.py
+touch linked.py
+cd repos/Data-Structures-using-Python/
+ls
+cd `Linked Lists/`
+ls
+nvim SinglyLinkedList.py
+ls -a 
+cd Documents/
+nvim SinglyLinkedList.py
+bluetoothctl 
+nvim 
+zi 2023/day5
+nvim .
+cd ..
+cd ...
+cd ..
+ls
+cd projects/
+ls
+cd ..
+fd | find dobble
+cd spot-it-generator/
+ls
+./main.py
+python3 main.py
+nvim main.py
+ls
+nvim test_dobble.py
+nvim main.py
+nvim spot_it_lib.py
+cat README.md
+cd ...
+cd ~
+cd repos
+gh repo clone moeru1/spot-it-generator
+cd spot-it-generator/
+ls
+./main.py
+python3 main.py
+nvim main.py
+ls
+ls -h
+ls | select name size
+diff
+diff spot_it_lib.py ~/spot-it-generator/spot_it_lib.py
+diff cuadrados.py ~/spot-it-generator/cuadrados.py
+git status
+cd ~/spot-it-generator/
+git status
+git pull
+git status
+nvim README.md
+cp ~/Downloads/spot-it-algorithm.pdf .
+git status
+git add spot-it-algorithm.pdf
+git commit -m "added pdf"
+git status
+git push origin main
+ls
+cd Dropbox/
+ls
+cd materias/
+ls
+cd tesis/
+ls
+okular crossing-families.pdf
+nvim notas.txt
+systemctl suspend
+$env.XDG_SESSION_TYPE
+$env.XDG_CURRENT_DESKTOP
+$env.XDG_CURRENT_DESKTOP = sway
+export $env.XDG_CURRENT_DESKTOP = sway
+$env.MOZ_ENABLE_WAYLAND = 1
+firefox
+/usr/lib/xdg-desktop-portal -r & /usr/lib/xdg-desktop-portal-wlr
+firefox
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+chrome
+google-chrome 
+bash
+systemctl --user status pipewire.socket
+systemctl --user status pipewire
+systemctl --user status pipewire.socket
+systemctl --user enable pipewire.socket
+systemctl --user status pipewire-media-session
+systemctl --user status wireplumber
+systemctl --user enable pipewire-media-session
+sudo apt install pipewire-media-session
+sudo apt install pipewire-media-sesion-
+sudo apt install pipewire-media-sesion
+sudo apt install pipewire-media-sesion- wireplumber
+sudo apt install pipewire-media-session- wireplumber
+systemctl --user status xdg-desktop-portal
+systemctl --user start xdg-desktop-portal
+systemctl --user status xdg-desktop-portal
+systemctl --user restart xdg-desktop-portal
+systemctl --user status xdg-desktop-portal
+firefox
+chrome
+google
+google-chrome 
+bash
+bash
+bash
+yazi
+cd ~/Documents
+speedtest-rs
+cheese
+cd projects/
+ls
+ls 
+ls
+cd aoc/2023/
+bash
+nvim notes.txt
+cd ..
+ls
+cd advent-of-code/
+ls
+cd ..
+echo "# aoc" >> README.md<\n>  git init
+cat README.md
+echo "# aoc" | save README.md
+cat README.md
+git add README.md
+git add 2015/
+git add 2023
+git commit -m "first commit"
+git rebase -i HEAD~1
+git rebase -i HEAD~0
+git status
+rm .git -r 
+ls
+git status
+ls -a 
+git status
+git init
+git status
+nvim .gitignore
+git status
+git add .gitignore
+git add README.md
+git commit -m "first commit"
+git status
+git add 2015
+git status
+git add 2023/
+git status
+git rm 2023
+git rm 2023 -r
+git status
+cd 2023/
+ls
+cd ..
+git status
+git rm 2023 
+git rm 2023 -r
+git reset HEAD --
+git status
+nvim .gitignore
+git status
+git add 2023 
+git status
+git reset HEAD -- 2023/day2/3ryjl4.7z
+git status
+git add .gitignore
+git add 2015
+git branch -M main
+git remote add origin https://github.com/moeru1/aoc.git<\n>
+git push -u origin main
+git status
+git commit -m "first commit"
+git push -u origin main
+okular `Gayle Laakmann McDowell - Cracking the Coding Interview_ 189 Programming Questions and Solutions-CareerCup (2015).pdf`
+bluetoothctl 
+cd Music
+yt-dlp --help | find audio
+yt-dlp https://www.youtube.com/watch?v=e6LM0sIA_Eg
+cd 
+nvim asdfsdf.txt
+cd ~/my_dev/
+ls
+cd `[smol] Sakurasou no Pet na Kanojo (BD 1080p HEVC Opus)/`
+ls
+cd ..
+du .
+ls
+du .
+nautilus\
+nautilus
+ls
+nvim .
+yazi
+ls
+cd Pictures/
+ls
+yazi
+cd wp
+yazi
+nu crop.nu tumblr_39a027f39a80a76d18317a17cd9ec053_38538cff_1280.jpg kuromi.jpg
+yazi
+ls
+ls | find kuromi
+nu crop.nu tumblr_39a027f39a80a76d18317a17cd9ec053_38538cff_1280.jpg kuromi.jpg
+ls | find kuromi
+nu crop.nu tumblr_39a027f39a80a76d18317a17cd9ec053_38538cff_1280.jpg kuromi
+ls | find kuromi
+cat crop.nu
+nu crop.nu tumblr_39a027f39a80a76d18317a17cd9ec053_38538cff_1280.jpg 
+./crop.nu
+source crop.nu
+crop tumblr_76048b04d463207d23aed8a718df807a_785eae26_1280.jpg kuromi
+nvim crop.nu
+crop tumblr_76048b04d463207d23aed8a718df807a_785eae26_1280.jpg kuromi
+nvim crop.nu
+source crop.nu
+crop tumblr_76048b04d463207d23aed8a718df807a_785eae26_1280.jpg kuromi
+ls
+yazi
+rm kuromi.jpg
+yazi\
+yazi
+crop tumblr_39a027f39a80a76d18317a17cd9ec053_38538cff_1280.jpg kuromi
+yazi
+crop tumblr_39a027f39a80a76d18317a17cd9ec053_38538cff_1280.jpg kuromi
+ls
+k icat kuromi.jpg
+cd wl-color-picker/
+./wl-color-picker
+./wl-color-picker.sh
+ls
+nvim ~/.config/nvim/
+swaycfg 
+swaycfg
+ls
+cd ..
+cd ~/Videos/
+ls
+yt-dlp https://youtu.be/sDdC3-LT7pM
+ls
+cd ~/Videos/
+ls
+mpv `What Killed Canada's Biggest Company？ [sDdC3-LT7pM].webm`
+cd ../Music/
+bluetoothctl 
+cd ~/Music
+cd ~/my_dev/ls
+cd ~/my_dev/
+ls
+zi 2023/day5
+ls
+zi
+ls
+nvim skills.txt
+cd ~/my_dev/
+ls
+cd Documents/
+ls
+python3
+cd repos/
+ls
+cd python-3.12.1-docs-html/
+fd | find python-3.12
+cd python
+ls
+cd ..
+ls
+cd ..
+fd | find python-3.12
+fd
+fd | find python-3.12
+fd --help
+fd --help | interactive
+fd --help | less
+fzf
+cd ~/Documents/python-3.12.1-docs-html/
+ls
+cd ..
+fzf
+bash
+mpv *
+systemctl --user status alarm.service
+systemctl --user status alarm2.timer
+systemctl --user status alarm2.service
+systemctl --user status alarm.service
+systemctl --user status alarm2.service
+systemctl --user stop alarm.service
+systemctl --user stop alarm.timer
+systemctl --user stop alarm2.timer
+systemctl --user status alarm.service
+systemctl --user status alarm2.service
+speedtest-rs
+cd ~/Musi
+cd ~/Music
+mpv *
+yt-dlp https://youtu.be/sDdC3-LT7pM
+yt-dlp https://www.youtube.com/watch?v=FiM_OLxQmU4&list=PLhZBiIU97tdCuqfc_y_iNjKzQHtjA1Cwh
+speedtest-rs
+nvim numeros.txt
+yt-dlp https://www.youtube.com/watch?v=A8jH_uFXXqM&list=PLhZBiIU97tdCuqfc_y_iNjKzQHtjA1Cwh
+man yt-dlp
+cd ~/Pictures
+yazi
+yt-dlp -x https://www.youtube.com/watch?v=A8jH_uFXXqM&list=PLhZBiIU97tdCuqfc_y_iNjKzQHtjA1Cwh
+cd ~
+mkdir page
+cd page
+wget https://www.indeed.com/career-advice/interviewing/software-engineer-interview-questions
+curl https://www.indeed.com/career-advice/interviewing/software-engineer-interview-questions
+ls
+cd page
+firefox `29 Software Engineer Interview Questions (With Example Answers) Indeed.com.html`
+cd ~
+yazi
+fzf
+ls
+fzf
+cd hypermedia/
+ls
+cd hypermedia.systems/
+ls
+cd book/
+ls
+cd ~
+cd ~/htmx/
+ls
+cd scripts/
+ls
+nvim .
+mpv *
+cd scripts
+ls
+cd ..
+ls
+cd projects/
+ls
+nvim ~/.config/nvim/
+bluetoothctl 
+nvim ~/.config/nvim/
+cd ~/Music
+nvim codember/
+ls
+cd pointers/
+ls
+cd ..
+ls
+cd alarm_pulsectl/
+ls
+nvim .
+cd ..
+cd ~
+nvim ~/repos/
+cd repos
+ls
+cd swayfx/
+ls
+./build/sway/sway
+nvim ~/.config/sway/config
+./build/sway/sway
+nvim ~/.config/sway/config
+cd ~/repos/swayfx/
+ls
+nvim ~/.config/sway/config
+:q
+nvim ~/.config/sway/config
+./build/sway/sway
+ls
+nvim README.md
+sudo apt remove sway 
+nvim README.md
+ninja -C build/
+nvim README.md
+sudo ninja -C build/ install
+sway
+/usr/local/bin/sway
+whereis sway
+sway
+nvim ~/.local/bin/sway
+sudo -E nvim ~/.local/bin/sway 
+sway
+nvim ~/.local/bin/sway
+echo $env.XDG_CURRENT_DESKTOP
+nvim ~/.local/bin/sway
+nvim $env.XDG_CURRENT_DESKTOP
+bash
+nvim ~/.local/bin/sway
+swaycfg 
+cd projects/
+nvim .
+cd aoc/2023/
+cd day5/
+nvim .
+cd ~
+cd /
+fzf
+cd bin/
+fzf
+cd ../etc
+cd ..
+cd etc/
+fzf
+sudo apt search ldm
+sudo apt search gdm
+fzf
+cd gdm3/
+ls
+cd Init/
+ls
+nvim Default
+cd ..
+nvim custom.conf
+fzf
+cd /
+fzf
+cd run/gdm3/
+ls
+cd /etc/gdm3/
+ls
+fzf
+fd
+cd ~
+fzf
+fd | find wayland
+fd | find waylogin
+fd | find way
+cd .config/
+fd | find way
+cd systemd/user/sway.service.wants/
+ls
+cd ..
+nvim
+man waybar
+nvim ~/.config/waybar/config
+man waybar
+cd ~
+cd 
+nvim ~/.config/waybar/config
+cd Music
+mvp *
+mpv *
+cd `~/my_dev/[smol] Sakurasou no Pet na Kanojo (BD 1080p HEVC Opus)/`
+man mpv
+mpv *
+cd projects/
+cd harmonious_coloring/
+ls
+nvim .
+ls
+nvim .
+systemctl --user status alarm2.service
+systemctl --user status alarm2.timer
+systemctl --user status alarm.timer
+systemctl --user enable alarm2.service
+systemctl --user status alarm2.timer
+systemctl --user status alarm2.service
+cd Videos
+cd Music
+mpv *
+mpv *
+systemclt stop alarm.service
+systemctl stop alarm.service
+systemctl --user stop alarm.service
+cd CV_repos/
+ls
+cd CV
+ls
+okular cv_main.pdf
+speedtest-rs
+cd Videos
+yt-dlp https://www.twitch.tv/videos/2002936178
+ls
+rm `363 DUS FINAL DAY, TEAM BADBOYS VS TEAM RYBSON [v2002936178].mp4.part`
+ls
+rm `363 DUS FINAL DAY, TEAM BADBOYS VS TEAM RYBSON [v2002936178].mp4.part`
+ls
+cd ..
+cd Videos
+ls
+cd ~
+sudo apt search ipe
+sudo apt search install ipe
+sudo apt install ipe
+ipe --version
+ipe --help
+ipe 
+sudo apt install inkscape
+sudo apt install pdf2svg
+bash
+nautilus
+ls
+cd Downloads/
+sudo apt install ./discord-0.Kv11CZZ6.0.38.deb.part
+sudo apt install ./discord-0.Kv11CZZ6.0.38.deb
+sudo apt install ./discord-0.0.38.deb
+bluetoothctl 
+cd projects/
+git clone https://gitlab.com/moeru/tesis-tex.git
+cd Downloads/
+ls | find mp3
+ls | find mp4
+ls | sort-by size
+mpv 962152f2169736a2249b9ef8e4da48181c7b1479770a93e809c4399e0aa1a48a.m4v?f=d6ed314d-a913-4063-ba9b-6969e4b424a8.m4v
+ls
+cd ~/Music
+zi projects/
+cd ..
+ls
+zi
+ls
+cd enums
+ls
+cd ..
+cd crack/
+ls
+cd ..
+cd crack/
+ls
+nvim .
+mkdir python
+mv * python/
+ls
+cd python/
+ls
+cd ..
+man mv
+mv --help
+nvim .
+zi Documents/
+cd ..
+ipython
+cd ..
+yazi
+cd iterator/
+nvim .
+cd ..
+cp iterator crack/
+cp iterator crack/ -r
+cd crack/
+ls
+cd iterator/
+mpv *
+zi [smol]
+mpv *
+bluetoothctl 
+cd projects/
+ls
+cd ~
+zi CV_repos
+cd CV/
+ls
+speedtest-rs
+okular cv_main.pdf
+speedtest-rs
+17.5 math.div 8
+math.div
+math div
+math
+python3
+qr-wifi
+wifi-qr
+ip a
+ip a -d
+ip a
+ip a 
+systemctl shutdown
+systemctl power off
+power off
+du 
+du
+ls
+dust
+speedtest-rs
+cd Music
+bluetoothctl 
+ls
+rm uno.mkv
+ls
+ls | sort-by size
+speedtest-rs
+rm powershell_7.3.4-1.deb_amd64.deb google-chrome-stable_current_amd64.deb
+ls
+du
+dust
+sudo dust
+cd /media/moeru/my_dev
+du
+dust
+ls
+dust
+ls
+rm `[SCY] Ping Pong The Animation (BD 1080p Hi10 FLAC) [Dual-Audio]/` -r
+rm `[SCY] Ping Pong The Animation (BD 1080p Hi10 FLAC) [Dual-Audio]/`
+rm `[SCY] Ping Pong The Animation (BD 1080p Hi10 FLAC) [Dual-Audio]/` -r
+ls
+cd `[SCY] Ping Pong The Animation (BD 1080p Hi10 FLAC) [Dual-Audio]/`
+ls
+rm *
+ls
+rm
+rm `[SCY] Ping Pong The Animation - 01 (BD 1080p Hi10 FLAC) [CD4FD510].mkv`
+cd ~
+cd /media/moeru/my_dev
+dust
+rm `[SCY] Ping Pong The Animation (BD 1080p Hi10 FLAC) [Dual-Audio]/`
+rm `[SCY] Ping Pong The Animation (BD 1080p Hi10 FLAC) [Dual-Audio]/` -r
+nautilus
+dust
+cd repos
+gh repo clone rust-embedded/book
+cargo install binutils
+rustup target add thumbv6m-none-eabi
+rustup target add thumbv7m-none-eabi<\n>
+rustup target add thumbv7em-none-eabi<\n>
+rustup target add thumbv7em-none-eabihf<\n>
+cargo install cargo-binutils
+rustup component add llvm-tools-preview
+sudo apt install libssl-dev
+sudo apt install pkg-config
+cargo install cargo-generate<\n>
+sudo apt install gdb-multiarch openocd qemu-system-arm<\n>
+gh repo clone rust-embedded/book
+cd book/
+ls
+cd src/
+ls
+cd ..
+mdbook 
+mdbook build
+mdbook serve
+cd ..
+pushd ~/projects/ a
+cargo install cargo-generate<\n>
+cargo generate --git https://github.com/rust-embedded/cortex-m-quickstart<\n>
+app
+cd app/
+nvim .
+man tail 
+tail -n6 .cargo/config.toml
+nvim .cargo/config.toml
+rustup target add thumbv7m-none-eabi
+nvim .
+cargo build
+cargo readobj --bin app -- --file-headers
+cargo size --bin app --release -- -A
+cargo objdump --bin app --release -- --disassemble --no-show-raw-insn --print-imm-hex<\n>
+cargo objdump --bin app --release -- --disassemble --no-show-raw-insn --print-imm-hex | less
+nvim .
+man cargo build
+man cargo-build
+cargo build help
+cargo build --help
+ls 
+cargo build --example hello
+qemu-system-arm \<\n>  -cpu cortex-m3 \<\n>  -machine lm3s6965evb \<\n>  -nographic \<\n>  -semihosting-config enable=on,target=native \<\n>  -kernel target/thumbv7m-none-eabi/debug/examples/hello<\n>
+bash
+nvim .
+cd .cargo/
+ls
+nvim config.toml
+cargo run --example hello --release<\n>
+cd projects/app/
+gdb-multiarch -q target/thumbv7m-none-eabi/debug/examples/hello
+cd ..
+nvim ~/.gdbinit
+gdb-multiarch -q target/thumbv7m-none-eabi/debug/examples/hello<\n>
+qemu-system-arm \
+zi app
+gdb-multiarch -q target/thumbv7m-none-eabi/debug/examples/hello<\n>
+systemctl --user stop alarm.service
+systemctl --user stop alarm2.service
+systemctl --user stop alarm2.timer
+systemctl --user stop alarm.timer
+systemctl --user stop alarm2.timer
+nvim ~/alarms/
+cd ~/alarms/
+ls
+cd ..
+mv alarms/ alarms.old/
+python3
+nvim .
+cargo build
+cargo build --example 
+cargo build --bin 
+cargo build --bin app
+cargo build --lib 
+cargo build --example allocation
+cargo build --example allocator
+rustup toolchain install nightly
+rustup default nightly
+cargo build --example allocator
+rustup target add thumbv6m-none-eabi
+rustup target add thumbv7m-none-eabi<\n>
+rustup target add thumbv7em-none-eabi<\n>
+rustup component add llvm-tools-preview
+cargo install cargo-binutils<\n><\n>rustup component add llvm-tools-preview<\n>
+cargo install cargo-generate<\n>
+cargo build --example allocator
+nvim .
+cargo add alloc-cortex-m
+cargo build --example allocator
+cd ..
+cd repos
+ls
+cd ..
+cd pages
+cd page/
+ls
+popd
+cargo doc --open
+nvim .
+cd ~/.cargo/
+du 
+popd
+cd page
+ls
+cd ~/my_dev/
+ls
+ls | sort-by size
+mpv `363 DUS FINAL DAY, TEAM BADBOYS VS TEAM RYBSON [v2002936178].mp4`
+info
+file `363 DUS FINAL DAY, TEAM BADBOYS VS TEAM RYBSON [v2002936178].mp4`
+file `363 DUS FINAL DAY, TEAM BADBOYS VS TEAM RYBSON [v2002936178].temp.mp4`
+speedtest-rs
+cd Videox
+cd Videos
+mpv *
+ls
+cd ~/my_dev/
+ls
+mpv `363 DUS FINAL DAY, TEAM BADBOYS VS TEAM RYBSON [v2002936178].mp4`
+du
+dust
+ping www.google.com
+ping www.gle.com
+ping www.gosdlkfjdsalf.com
+htop
+poweroff
+power on
+bluetoothctl 
+nvim 
+bluetoothctl 
+cd ~/my_dev/
+ls
+cd Music
+ls
+cd my_dev
+ls
+bluetoothctl 
+cd Downloads/
+mpv 962152f2169736a2249b9ef8e4da48181c7b1479770a93e809c4399e0aa1a48a.m4v?f=d6ed314d-a913-4063-ba9b-6969e4b424a8.m4v
+mpv `363 DUS FINAL DAY, TEAM BADBOYS VS TEAM RYBSON [v2002936178].mp4`
+cd ~
+cd my_dev
+ls
+cd ~/Music
+mpv * 
+mpv *
+rm `Activación de VoLTE para OnePlus series 7 y 8 [M2Y-50a1IVY].opus` 
+rm `Activación de VoLTE para OnePlus series 7 y 8 [M2Y-50a1IVY].opus`  -r 
+ls
+rm `Activación de VoLTE para OnePlus series 7 y 8 [M2Y-50a1IVY].opus` 
+bash
+ls
+cat `Alstroemeria Records - IGNITION DANCEHALL [rCo6EEhB3XU].opus`
+cd ~
+cd Music
+mpv * 
+rm `Caedrel Wants To Coach Mr Beast's Super Team？! [7pttyJn-F-w].opus`
+bash
+bluetoothctl 
+waydroid first-launch
+cd repos
+ls
+cd ..
+cd pages
+speedtest-rs
+zi aoc
+cd Downloads/
+cd ~/Picturs
+cd ~/Pictures
+cd Screenshots/
+ls
+ls | sort-by modified
+k icat 2023-12-13-20-55-26.png
+yazi
+cd ~
+yazi
+notnotif_history 
+notif_history 
+cheese
+mpv *
+cd Videos
+yt-dlp https://www.youtube.com/watch?v=CACp0TzboOM
+cd Videos
+yt-dlp https://www.youtube.com/watch?v=NmxHw_bHhGM
+yt-dlp https://www.youtube.com/watch?v=TyUA1OmXMXA
+dust
+cd ~
+dust
+cd Video
+cd Videos/
+cargo update nu/
+cargo install 
+cargo update
+man cargo
+cargo --help
+yt-dlp https://www.youtube.com/watch?v=_RpZrD3CaDc
+yt-dlp https://www.youtube.com/watch?v=cJCm1BadvtI
+whereis nu
+nu --version
+cargo install nu
+nvim ~/nu.old/30-dir-stack.nu
+nvim ~/nu
+cd ~/nu
+nvim .
+nvim ~/.zoxide.nu
+nvim .zoxide.nu
+nu
+config nu
+config env
+whereis zoxide 
+cargo install zoxide
+nvim .zoxide.nu
+config env
+nu
+nu
+pushd ~/projects/ a
+popd
+popd a
+popd 0 a
+ls
+zi
+touch asd
+rm asd
+ls
+cd /tmp
+ls
+yazi
+man free
+free
+man free
+cd ~/Videos
+ls
+rm 0
+rm ` Sakurasou no Pet na Kanojo S01E09 BD 1080p HEVC Opus _12m47s016ms-13m06s452ms.mp4`
+ls
+touch a
+ls | find a
+ls | get 9
+ls | get 8
+ls | get 8 | rm
+ls | get 8 | for-each
+ls | get 8 | each { |e| rm e }
+ls | get 8 | each { |e| print $e }
+ls | get 8 | each { |e| rm $e }
+ls | get 8 | each { |e| rm $e.name }
+ls
+mpv `The World Record History of Banned% in Club Penguin [CACp0TzboOM].webm`
+ls
+l
+ls
+nvim .zoxide.nu
+ls
+cd repos
+ls
+cd book/
+zi projects
+ls | sort-by modified
+cd app
+zi app
+z app
+cd ..
+cd app
+gdb-multiarch -q target/thumbv7m-none-eabi/debug/examples/hello<\n>
+nvim .
+htop
+cd Music
+nvim .
+htop
+bash
+nvim .
+rustup doc
+nvim .
+cd Videos
+ls
+cd ~
+cd pages
+cd page
+ls
+firefox `4 formas de coser agujeros - wikiHow.html`
+nvim .
+cargo build 
+cargo build --example allocator
+nvim .
+cd Videos
+ls
+mpv `The billion dollar race for the perfect display [TyUA1OmXMXA].webm`
+ls
+nvim .
+ls
+mpv `How To Find Time To Learn After Work ｜ Prime Reacts [T8ZKo8Wa7hw].webm`
+ls
+nvim .
+mpv `Day 5： If You Give A Seed A Fertilizer ｜ Advent of Code 2023 [_RpZrD3CaDc].webm`
+zi day5
+mpv *
+cd ~/my_dev/
+ls
+rm `363 DUS FINAL DAY, TEAM BADBOYS VS TEAM RYBSON [v2002936178].temp.mp4`
+ls
+cd `[SCY] Ping Pong The Animation (BD 1080p Hi10 FLAC) [Dual-Audio]/`
+cd [Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/
+cd [Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)
+cd `[Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)`
+ls
+mpv *
+yazi
+nvim 
+waydroid first-launch
+cheese
+du
+dust
+fzi
+fzf
+cd hypermedia.systems/
+ls
+cd hypermedia/
+ls
+cd hypermedia.systems/
+ls
+firefox index.html
+notif_history 
+notif_history | reverse
+cd my_dev
+cd `[Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/`
+mpv *
+notif_history | reverse
+nvim .
+cd ..
+cd ~/projects
+mkdir myapp
+cd myapp
+go mod init myapp
+ls
+nvim go.mod
+go get github.com/labstack/echo/v4
+touch server.go
+nvim server.go
+go run server.go
+cd ~/projects/myapp/
+go run server.go
+curl -d "name=Joe Smith" -d "email=joe@labstack.com" http://localhost:1323/save
+go run server.go
+curl -F "name=Joe Smith" -F "avatar=@/path/to/your/avatar.png" http://localhost:1323/save
+ls 
+ls | find .png
+yazi
+curl -F "name=Joe Smith" -F "avatar=@/home/moeru/screen1.png" http://localhost:1323/save
+fzf code
+fzf
+cd fonts
+ls
+cd `Comic Code Ligatures/`
+ls
+cd ..
+ls
+ls
+nvim server.go
+go install github.com/a-h/templ/cmd/templ@latest
+bluetoothctl 
+cd repos
+gh repo clone m-ou-se/rust-atomics-and-locks
+cd pages
+cd page
+wget -mpEk "https://marabos.nl/atomics/"
+cd marabos.nl/
+ls
+firefox atomics/book-index.html
+firefox atomics/atomics.html
+cd ..
+wget -mpEk "https://ibraheem.ca/posts/too-many-web-servers/"
+notif_history | reverse
+cd Videos
+yt-dlp https://youtu.be/-AAA68uZuWU
+yt-dlp https://youtu.be/MF1QSEzAeu8
+python3
+cd Videos
+yt-dlp https://youtu.be/q41va_J4hRk
+ls
+mpv `Separating Distractions from Productivity [q41va_J4hRk].webm`
+ls
+mpv `Top 10 Types of Software Developers [-AAA68uZuWU].webm`
+ls
+mpv `I Failed as a Self-Taught Software Engineer and Bootcamp Grad [MF1QSEzAeu8].webm`
+ls
+cd Webcam/
+ls
+mpv *
+rm 2023-07-13-112635.webm
+ls
+cd ~
+ls
+cd Music
+ls
+cd ~
+ls
+cd wluma/
+ls
+bat README.md
+cd ..
+cd page
+ls
+cd ~
+ls
+cd vimv
+ls
+cat README.md
+vimv
+cd ~
+ls
+nvim test.html
+:q
+nvim Cuentas.txt
+nvim kitty/
+nvim .
+ls
+nvim skills.txt
+zi day5
+nvim .
+cd ~/Music
+mpv *
+bash
+cd ~/page
+cd marabos.nl/
+ls
+cd atomics/
+ls
+firefox atomics.html
+cd ~/projects/
+cargo new locks-and-atomics
+cd locks-and-atomics/
+nvim .
+bluetoothctl 
+nvim .
+yazi
+bluetoothctl 
+speedtest-rs
+cargo add itertools
+zi day5
+cargo run --bin part-2
+cargo test
+cargo run --bin part-2
+cargo test
+notif_history | reverse
+swaycfg 
+cargo test
+journalctl --user -xeu alarm.service
+cargo test
+htop
+cargo test
+cargo test | count
+cargo test
+cargo test | find 0!
+cargo test
+cd ~/my_dev/
+ls
+cd `Eizouken ni wa Te wo Dasu na! [BD]/`
+ls
+mpv *
+cargo run
+cargo run --bin part-2
+cargo test
+mvp *
+python3
+cargo test
+cargo test | find 48\
+cargo test | find 48
+cargo test
+cargo test | find min
+cargo run --bin part-2
+cargo fix --lib -p day5
+cargo run --bin part-2
+tim cargo run --bin part-2
+time
+cargo run --bin part-2 --release
+time target/release/part-2
+time target/debug/part-2
+time target/release/part-2
+man time
+mpv *
+yazi
+cd Videos
+yt-dlp https://www.youtube.com/watch?v=qNV5X-GBkR8
+cd Videos
+yt-dlp https://www.youtube.com/watch?v=sE6t4Z4qY6k
+yt-dlp https://www.youtube.com/watch?v=qNV5X-GBkR8 --write-sub --write-auto-sub --sub-lang "en.*"
+cargo run --bin part-2 --release
+nvim .
+cd ..
+./mk-aoc-project.sh day6
+./mk-aoc-project.sh day7
+./mk-aoc-project.sh day8
+cd day6/
+aoc download --day 6 --year 2023
+cd ..
+cd day7/
+aoc download --day 7 --year 2023
+cd ..
+cd day8/
+aoc download --day 8 --year 2023
+nvim puzzle.md
+cd ..
+git status
+git commit -m "day5"
+git status
+git add day5/src/lib.rs
+git status
+git commit -m "day5"
+git push origin main
+cd ~/Pictures/
+ls
+cd Screenshots/
+ls
+yazi
+yt-dlp https://www.youtube.com/watch?v=rJKSxIdQVSA 
+yt-dlp https://www.youtube.com/watch?v=BxnSIzj7aec --write-sub --write-auto-sub --sub-lang "en.*"
+mpv `A Husband Was Found With Another Woman. This Is What Was Done To His Organs. [qNV5X-GBkR8].webm`
+nvim 
+nvim 
+ls
+yt-dlp https://www.youtube.com/watch?v=J9Cw24Gd6Ik --write-sub --write-auto-sub --sub-lang "en.*"
+nvim 
+cd Screenshots/
+cd Pictures/Screenshots/
+yazi
+cd Videos/
+cd Videos
+mpv `I Let My Viewers List Me On Their Resumes [sE6t4Z4qY6k].webm`
+ls
+ls | sort-by modified
+mpv `The Greatest Happy Wheels Speedrun Nobody Knows About [J9Cw24Gd6Ik].webm`
+mpv `A Husband Was Found With Another Woman. This Is What Was Done To His Organs. [qNV5X-GBkR8].webm`
+ls
+mpv `The Greatest Happy Wheels Speedrun Nobody Knows About [J9Cw24Gd6Ik].webm`
+cd ~/Music
+zi atomics
+nvim .
+ls
+z atomics
+cargo run
+time cargo new
+time target/debug/build/
+target/debug/locks-and-atomics
+time target/debug/locks-and-atomics
+cargo run
+cargo run --release
+cd Downloads/
+ls
+mpv 962152f2169736a2249b9ef8e4da48181c7b1479770a93e809c4399e0aa1a48a.m4v?f=d6ed314d-a913-4063-ba9b-6969e4b424a8.m4v
+rustup doc
+nvim
+cd repos
+ls
+cd rust-atomics-and-locks/
+nvim .
+mpv *
+cargo run
+nvim .
+cd ~
+zi day6
+nvim puzzle.md
+pushd ~/Downloads/
+sudo apt install ./discord-0.0.39.deb
+python3
+notif_history | reverse
+cd ~/repos
+ls
+git clone --origin upstream git@github.com:kaist-cp/cs431.git
+git clone --origin upstream https://github.com/kaist-cp/cs431.git
+ls
+nvim .
+ls
+cd result/
+ls
+cd bin/
+ls
+cd ~/repos
+ls
+nvim ~/.zoxide.nu
+cd ~/Music
+swaycfg 
+bluetoothctl 
+cd ~/Music
+cd ~/my_dev/
+ls
+cd [Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/
+ls
+cd [Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/
+cd `[Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/`
+ls
+mpv *
+ls
+ls | count
+ls | list 
+ls | length
+ls 
+cd ~/Downloads/
+ouch the_follow.zip
+ouch d the_follow.zip
+cd `The follow/`
+ls
+waydroid first-launch
+zi 2023
+ls
+./mk-aoc-project.sh day20
+cd day20/
+aoc download --day 20 --year 2023
+notif_history | reverse
+nvim .
+ls
+nvim `The follow.sln`
+nvim Assembly-CSharp-firstpass.csproj
+notif_history | reverse
+notif_history
+notif_history | reverse
+waydroid first-launch
+speedtest-rs
+cd ~/page
+wget -mpEk https://boards.4chan.org/g/thread/97996815
+ls
+cd boards.4chan.org/
+ls
+cd g/
+ls
+firefox index.html
+cd thread/
+ls
+ls | find 815
+man mkfifo
+man selinux
+man se
+man linux
+man man
+man troff
+notif_history | reverse
+bluetoothctl 
+nvim .
+cd ~/my_dev/
+ls
+cd (glob Serial)
+glob Serial
+glob *Serial
+glob *_Serial
+glob *
+glob *Serial*
+glob *Serial* | cd
+(glob *Serial) | get 0
+(glob *Serial) 
+(glob *Serial*) | get 0
+(glob *Serial*) | get 0 | cd
+cd ~/my_dev/
+cd ((glob *Serial*) | get 0)
+mpv *
+mpv *
+dunstctl set-paused toggle
+cd ~/Videos
+yt-dlp https://youtu.be/alfCi8QoZQ8
+nvim puzzle.md
+speedtest-rs
+speedtest-rs 
+notif_history | reverse
+dunstctl set-paused toggle
+bluetoothctl 
+cd Music
+cd repos
+gh repo clone benpate/table
+cd table/
+ls
+nvim table.go
+nvim .
+dunstctl set-paused toggle
+ls
+man go
+go --help
+go run
+go run table.go
+go run example/server.go
+go install github.com/a-h/templ/cmd/templ@latest<\n>
+cd projects/
+ls
+ls | find hello
+mkdir hello-world 
+cd hello-world/
+templ
+go install github.com/a-h/templ/cmd/templ@lates
+go install github.com/a-h/templ/cmd/templ@latest
+ls
+$env.GOROOT
+cd ~/go/bin/
+ls
+cd ~
+go env
+go env | find ROOT
+go env | find PATH
+~/go/bin/templ
+config env
+mpv *
+cd ~/projects/hello-world/
+mkdir hello-world<\n>go mod init github.com/a-h/templ-hello-world
+ls
+rm hello-world/ -r
+ls
+nvim go.mod
+zi hello-world
+templ 
+templ generate
+templ migrate
+templ migrate hello.templ
+templ migrate -f hello.templ
+nvim 
+go run *.go
+nvim main.go
+go run *.go
+ls
+nvim 
+cd ..
+mkdir got
+cd got
+cd ~/got
+cd ../got
+go mod init github.com/moeru1/got
+nvim
+nvim 
+make
+go get github.com/labstack/echo/v4
+got get github.com/a-h/templ
+go get github.com/a-h/templ
+nvim .
+nvimcfg 
+nvimcfg
+du | find templ
+du 
+nvim .
+nvimcfg
+nvim .
+nvimcfg
+mak
+make
+templ generate
+nvim go.mod
+go --version
+go -v
+go version
+go update
+go help
+go help | update
+go help | find update
+go help | find upgrade
+sudo apt instal golang
+sudo apt install golang
+sudo apt uninstall golang
+go help
+nvim .
+bash
+make
+go.mod
+nvim go.mod
+go version
+make
+nvim go.mod
+make
+templ generate
+make 
+make
+nvim Makefile
+go run cmd/main.go
+templ generate
+go run cmd/main.go
+make 
+templ generate
+templ help
+templ generate view/layout/base.templ
+make
+la
+ls
+go run cmd/main.go
+templ generate
+make
+zi got
+ls
+man find
+man fd
+fd --help
+fd ~/repos
+fd a
+bash
+config nu 
+config nu
+swaycfg
+fzf
+config nu
+ls
+config nu
+char nl
+ls | where type == dir | each { |it| $it.name }
+fzf
+cd fzf
+bash
+let fzf_menu =  {<\n>    name: fzf_menu<\n>    only_buffer_difference: false<\n>    marker: "# "<\n>    type: {<\n>        layout: columnar<\n>        columns: 1<\n>        col_width: 20<\n>        col_padding: 2<\n>    }<\n>    style: {<\n>        text: green<\n>        selected_text: green_reverse<\n>        description_text: yellow<\n>    }<\n>    source: { |buffer, position|<\n>        let input = (fzf --no-sort --tac  | lines)<\n>        let start = ($buffer | str index-of ' ') + 1<\n>                <\n>        $input<\n>        | each { |v| <\n>            {<\n>                value: ($v | str trim) <\n>                span: { start: $start end: $position }<\n>            } <\n>        }<\n>    }<\n>}
+fzf_menu
+$fzf_menu
+fzf_menu
+go/pkg/mod/github.com/a-h/templ@v0.2.476/generator/test-import/template_templ.go
+ca
+cd Dropbox/materias/computacion_evolutiva/pdftilecut/c-deps/qpdf/qpdf/qtest/qpdf/shared-images-show.out
+fzf
+fzf --no-sort -tac
+man fzf
+cd fzf
+fzf
+fzf --dir
+fzf --help
+man fzf 
+cd fastfetch/src/logo/ascii/manjaro.txt
+fzf
+let a = fzf 
+$a
+def asd [] {let a = fzf; cd $a}
+asd
+./Documents
+cd ~
+def historyfzf [] {<\n>	history | reverse | each { echo [$it (char nl)] } | str collect | fzf --header '[HISTORY]' | cbs<\n>	_pasteAtCursor<\n>}
+zi
+config nu
+fzf
+waydroid first-launch
+dunstctl set-paused toggle
+zi got
+view/user/show_templ.go
+cd view/user/show_templ.go
+make
+templ generate
+notif_history | reverse
+waydroid first-launch
+ls
+fsdiks
+fstat
+lsblk
+man mount
+sudo mount /dev/sda1 /media/moeru/usb-memory
+mkdir /media/moeru/usb-memory
+sudo mkdir /media/moeru/usb-memory
+sudo mount /dev/sda1 /media/moeru/usb-memory
+cd /media/moeru/usb-memory/
+ls
+yazi
+ls
+du
+du .
+dust
+rm * -r 
+sudo rm *
+ls
+dust
+du 
+du .
+dust
+ls
+nautilus
+ls
+cd ~
+lsbkl
+lsblk 
+sudo mount /dev/sda1 /media/moeru/usb-memory
+sudo mount /dev/sdb1 /media/moeru/usb-memory
+cd /media/moeru/usb-memory/
+ls
+yazi
+ls
+rm `1998 Bichos.mkv`
+sudo rm `1998 Bichos.mkv`
+ls
+sudo rm Frozen.2013.bluray-latino-e-ingles-subt.c.mp4
+sudo rm *
+ls
+rm `System Volume Information/`
+rm `System Volume Information/` -r
+sudo rm `System Volume Information/` -r
+ls
+lsbkl
+lsblk
+sudo mount /dev/sdc1 /media/moeru/usb-memory
+ls
+du 
+du .
+dust
+yazi
+templ generate
+make
+nvim .
+sudo umount /dev/sda1
+lsbkl
+lsblk
+sudo umount /dev/sda1
+sudo umount /dev/sda2
+sudo umount /dev/sda3
+dunstctl set-paused toggle
+nautilus
+ls
+bluetoothctl 
+nautilus
+cd `/media/Media Driver/`
+ls
+cp ~/backup/audio/ . -r 
+ls
+cd audio
+ls
+ls | length
+ls
+cd ..
+ls
+cd audio
+cp ~/backup/Grabación_20231212024428.m4a ~/backup/Grabación_20231206031105.m4a .
+ls
+cd ~/backup/
+fd | find mp3
+fd | find m4a
+file `audio/Andrea Bocelli-Besame Mucho (Karaoke Version)(MP3_160K).mp3`
+fd | find opus
+ls
+cd /media/moeru/94E6-95A4/
+ls
+cd ~/backup/
+ls
+glob ^Download
+glob ^(Download)
+glob Download
+find --help | find invert
+find audio --invert
+find audio
+ls | find audio --invert
+ls | find audio --invert | get name 
+ls | find audio --invert | get name | str join DCIM/
+ls | find audio --invert | get name | str join " "
+cp (ls | find audio --invert | get name | str join " ") /media/moeru/94E6-95A4/
+cp (ls | find audio --invert | get name | str join " ")
+for-each
+cp (ls | find audio --invert | get name | str join " ") | each {|e| print e}
+cp (ls | find audio --invert | get name ) | each {|e| print e}
+cp (ls | find audio --invert | get name ) | each {|e| e}
+(ls | find audio --invert | get name ) 
+(ls | find audio --invert | get name ) | each {|e| e}
+(ls | find audio --invert | get name ) | each {|e| print e}
+(ls | find audio --invert | get name ) | each {|e| print $e}
+(ls | find audio --invert | get name ) | each {|e| cp $e /media/moeru/94E6-95A4/}
+(ls | find audio --invert | get name ) | each {|e| cp $e /media/moeru/94E6-95A4/ --recursive}
+\\
+cd /media/moeru/94E6-95A4/
+du .
+du File_Restore/
+du File_Restore/*
+du File_Restore/.
+cd File_Restore/
+du .
+du
+ls
+du .
+cd ..
+fd --type d
+fd --type d | du
+ls
+du
+ls
+fd --type d | du
+fd --type f | du
+fd --type d | du
+cd Music
+mpv *
+zi
+brave-browser 
+zi got
+zi
+make
+cd Music
+man yt-dlp
+waydroid first-launch
+nvim 
+zi swayfx
+nvim .
+nvim .
+man sway
+man 5 sway
+python3
+cd ~/my_dev/
+ls
+cd `[Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/`
+cd ..
+open --help
+ls
+open `[smol] Sakurasou no Pet na Kanojo (BD 1080p HEVC Opus)/`
+cargo install zoxide
+nvim ~/.zoxide.nu
+popd
+git diff
+nvim .
+zi hello-world
+nvim .
+cd ..
+ls
+cd yt-cache/
+ls
+nvim .
+ls
+zi CV_repos
+ls
+cd CV/
+ls
+nvim cv_main.tmp.typ
+nvim cv_main.yml
+nvim yt-cache.go
+go get go.etcd.io/bbolt@latest
+nvim go.mod
+go run go.etcd.io/bbolt/cmd/bbolt@latest
+$ go run go.etcd.io/bbolt/cmd/bbolt@latest
+go install
+bbolt
+go run go.etcd.io/bbolt/cmd/bbolt@latest
+bbolt
+bash
+bolt
+man go
+go --help | find race
+go --help
+go --help | find build
+go --help | find race
+go --help | error 
+zi yt-cacahe
+zi yt-cache
+ls
+nvim go.mod
+zi hello-world
+ls
+nvim go.mod
+nvim .
+cd ..
+zi got
+nvim .
+notif_history | reverse
+speedtest-rs 
+ip a
+waydroid first-launch
+zi got
+nvim .
+ls
+nvim go.mod
+nvim .
+zi yt-cache
+ls
+go run 
+go run main.go 
+nvim .
+ls
+mkdir lib
+mv cache.go lib
+go run main.go
+nvim .
+ls /tmp/dv/dvout-NA-la6u4W3RZOE.f137.mp4.part
+go run main.go
+ls
+open my.db
+nvim my.db
+open my.db
+man open
+open --help
+whereis open
+open 
+open my.db
+open --raw my.db
+open --raw my.db | decode utf-8
+ls
+ls /tmp/dv
+ls
+man yt-dlp
+yt-dlp https://youtu.be/P4LMfkFLRsI --sponsorblock-remove  sponsor 
+ls
+mpv `Rust & Wasm [P4LMfkFLRsI].webm`
+ls
+rm `Rust & Wasm [P4LMfkFLRsI].webm`
+go run main.go
+ls /tmp/dv/
+cd /tmp/dv/
+ls
+mpv dvout-NA-P4LMfkFLRsI.webm
+dunstctl set-paused toggle
+ls
+cd lib
+ls
+nvim cache.go
+cd ..
+nvim .
+yt-dlp https://youtu.be/P4LMfkFLRsI --sponsorblock-remove  sponsor 
+yt-dlp P4LMfkFLRsI --sponsorblock-remove  sponsor 
+push ~/repos
+push
+pop
+pushd ~/repos
+gh repo clone yt-dlp/yt-dlp
+cd yt-dlp
+ls
+yt-dlp P4LMfkFLRsI --sponsorblock-remove  sponsor 
+dunstctl set-paused toggle
+cd repos
+gh repo clone kkdai/youtube
+cd youtube/
+notif_history | reverse
+dunstctl set-paused toggle
+nvim .
+ls
+nvim .
+cp video_id.go ~/projects/yt-cache/
+zi yt-cache
+popd
+zi yt-cache
+ls
+rm `Rust & Wasm [P4LMfkFLRsI].f313.webm.part`
+ls
+nvim video_id.go
+popd
+nvim video_id.go
+zi yt-cache
+nvim .
+nvim 
+cd Musico
+cd Music
+mpv *
+ls 
+ls | find vult
+ls | find Vult
+cd ~/Downloads/
+ls
+ls | find .m4a
+ls | find .mpa
+ls | find .mp3
+popd
+ls
+nvim .
+ls
+nvim my.db
+open --raw my.db | decode utf-8
+ls
+du
+du my.db
+ls
+ls -a 
+ls -f
+ls --help
+ls -l
+ls 
+cd ~/Videos/
+ls
+ls | sort-by modified
+cd ..
+ls
+cd Downloads/
+ls
+rm ubuntu-22.10-desktop-amd64.iso.torrent
+ls
+cd my_dev
+cd ..
+cd my_dev
+cd ((glob *Serial*) | get 0)
+mpv *
+bluetoothctl 
+zi Serial
+mpv *
+cd ~/my_dev/
+ls
+cd ~/my_dev/
+ls
+cd ~/Music
+cd Pictures
+yazi
+k icat F6fHS9zagAAbCOO.jpeg
+mpv *
+cd Downloads/
+mpv 962152f2169736a2249b9ef8e4da48181c7b1479770a93e809c4399e0aa1a48a.m4v?f=d6ed314d-a913-4063-ba9b-6969e4b424a8.m4v
+cd ~/Music
+mpV *
+mpv *
+notif_history | reverse
+nvim
+bluetoothctl 
+piper
+cd ~/Music
+nautilus
+bluetoothctl 
+cd Music
+bluetoothctl 
+mpv *
+math div 
+1/2
+python3
+bluetoothctl 
+waydroid first-launch
+bluetoothctl 
+zi projects
+ls
+cd a-tour-of-go/
+cd ..
+cd codember/
+cd ..
+cd got/
+cd ..
+cd harmonious_coloring/
+ls
+cargo clippy
+cd Pictures/
+ls
+yazi
+waydroid first-launch
+bluetoothctl 
+nvim 
+bluetoothctl 
+bluetoothctl 
+cheese
+bluetoothctl 
+cd rustlings/
+ls
+cd exercises/intro/
+ls
+nvim intro1.rs
+cd ..
+cd variables/
+ls
+nvim variables1.rs
+cd ..
+cd functions/
+ls
+nvim 
+bash
+bluetoothctl 
+fakeroot
+fakeroot --help
+fakeroot
+ls
+bluetoothctl 
+nvim
+cd Music
+cd ~/my_dev/
+ls
+yazi
+firefox `Web capture_4-1-2024_153217_jeremykun.com.jpeg`
+yazi
+htop
+cd ~/my_dev/
+ls
+zi atomics
+ls
+cd ~
+zi atomics
+ls
+cd Music
+mpv *
+cd my_dev
+cd [Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/
+cd [Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/[Coalgirls]_Serial_Experiments_Lain_01_(1520x1080_Blu-Ray_FLAC)_[573CDDD6].mkv
+cd [Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/
+cd "[Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/"
+ls
+mpv *
+firefox atomics.html
+bluetoothctl 
+sudo apt-get install g++ pkg-config libx11-dev libasound2-dev libudev-dev libxkbcommon-x11-0
+sudo apt-get install libwayland-dev libxkbcommon-dev
+sudo apt install vulkan-intel
+sudo apt install mesa-vulkan-drivers
+git clone https://github.com/bevyengine/bevy
+cd bevy
+git checkout latest
+bluetoothctl 
+cargo run --features wayland --example breakout 
+ls
+cargo run --features wayland --example hello-world
+cargo run --features wayland --example hello_world
+nvim 
+nvim .
+zi projects
+cargo new my_bevy_game
+cd my_bevy_game/
+cargo add bevy
+ls
+cat Cargo.toml
+nvim Cargo.toml
+sudo apt install lld
+htop
+cargo install -f cargo-binutils
+zi my_bevy
+ls
+mkdir .cargo
+ls
+cd .cargo/
+ls
+cargo run --features bevy/dynamic_linking
+nvim config.toml
+cargo run
+cargo run
+rustup default nightly
+cargo run
+dust
+nautilus
+ls
+cd Music
+ls
+cd ..
+mv Music ~/my_dev/
+ls
+ls -a
+dust
+ls
+cd Downloads
+ls | sort-by size
+rm Win11_22H2_English_x64v2.iso
+rm discord*
+ls
+ls | sort-by size
+nautilus
+cargo run
+ls
+dust
+nvim Cargo.toml
+nvim .cargo/config.toml
+nvim Cargo.toml
+cargo run
+dust
+dust\
+dust
+ls
+nvim rust-toolchain.toml
+ls
+nvim 
+nvim .
+cargo run
+zi CV_repos
+cd CV/
+ls
+okular cv_main.pdf
+ls
+okular cv_main.pdf
+ls
+nvim cv_main.yml
+./compile.sh cv_main.yml
+okular cv_main.pdf
+cd my_dev
+ls
+cd Music
+ls
+ls | sort-by size
+yt-dlp -x https://youtu.be/la6u4W3RZOE
+man yt-dlp
+cd page/
+ls
+wget -mpEk https://bevyengine.org/learn/book/introduction/
+cd bevyengine.org/
+ls
+okular index.html
+firefox index.html
+cd ~
+git clone https://github.com/bevy-cheatbook/bevy-cheatbook
+cd bevy-cheatbook/
+ls
+mdbook
+mdbook build 
+mdbook serve
+cd my_dev/
+ln -s /media/moeru/my_dev/Music/ ~/Music
+cd ~/Music/
+ls
+ls | find Vestron
+man wget
+mpv `Vestron Vulture Feat. Tormental - Morningstar EP [la6u4W3RZOE].opus`
+ls
+cd ~/pages/
+cd ~/page
+cd bevyengine.org/
+firefox index.html
+zi bevy
+cargo run --features wayland 
+cargo run
+cargo run 
+cargo fmt
+cargo run
+cd bevy
+ls
+cd examples
+ls
+cd ecs
+ls
+cd ..
+ls
+cd 2d
+ls
+nvim move_sprite.rs
+cargo run --features wayland --example move_sprite.rs
+cargo run --features wayland --example move_sprite
+lw
+ls
+cargo run --features wayland --example move
+rustup default stable
+rustup default
+rustup default nightly
+rustup default
+rustup default stable
+nvim move_sprite.rs
+ls
+cd ..
+ls
+cd games 
+ls
+cargo run --features wayland --example alien_cake_addict.rs
+cargo run --features wayland --example alien_cake_addict
+nautilus
+ls
+ls | sort-by size
+rm `How speedrunners beat Club Penguin Thin Ice Perfectly - History of World Records [BxnSIzj7aec].webm`
+rm `How speedrunners beat Club Penguin Thin Ice Perfectly - History of World Records [BxnSIzj7aec].en-en.vtt`
+rm `How speedrunners beat Club Penguin Thin Ice Perfectly - History of World Records [BxnSIzj7aec].en.vtt`
+ls
+ls | sort-by size
+dust
+cd Videos
+ls
+cd ..
+cd Videos
+rm `A Husband Was Found With Another Woman. This Is What Was Done To His Organs. [qNV5X-GBkR8].webm`
+ls
+rm `A Husband Was Found With Another Woman. This Is What Was Done To His Organs. [qNV5X-GBkR8].en-en.vtt`
+rm `A Husband Was Found With Another Woman. This Is What Was Done To His Organs. [qNV5X-GBkR8].en-orig.vtt`
+rm `A Husband Was Found With Another Woman. This Is What Was Done To His Organs. [qNV5X-GBkR8].en.vtt`
+ls
+rm `The billion dollar race for the perfect display [TyUA1OmXMXA].webm`
+LS
+ls
+cargo run --features wayland --example alien_cake_addict
+nvim alien_cake_addict.rs
+ls
+cargo run --features wayland --example breakout
+cargo run --example breakout
+zi bevy
+cargo run --example breakout
+cargo run --example breakout --features wayland
+cd bevy
+cargo run --example breakout --features wayland
+nautilus
+ls
+cargo run --features wayland --example breakout 
+cargo run --features wayland --example breakout | save /tmp/asd
+cat /tmp/asd
+bash
+cargo run
+cargo run --features wayland --example alien_cake_addict
+rustup default
+ls
+dust
+nautilus
+ls
+cargo run --features wayland --example alien_cake_addict
+cargo run
+ls
+cd my_dev/
+ls
+cd [Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/
+cd '[Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/'
+mpv *
+bluetoothctl 
+htop
+ls
+cargo run
+ls
+nvim .
+nvim breakout.rs
+zi bevy
+cd bevy
+ls
+cd examples
+ls
+nvim .
+ls
+cd 2d
+ls
+cargo run --features wayland --examples 2d_viewport_to_world
+cargo run --features wayland --example 2d_viewport_to_world
+nvim 2d_viewport_to_world.rs
+ls
+ls
+cargo run
+mpv *
+cd ..
+ls
+cd my_dev/
+yt-dlp -x https://youtu.be/t1ySWe5bF5s
+mpv `VENTILADOR sonido girando para DORMIR 1 hora TRANQUILIZANTE  VIDEOS RELAX DRAP [t1ySWe5bF5s].opus`
+zi bevy
+ls
+cd ~
+zi my_bev
+ls
+zi bevy
+ls
+cd ~/my_dev/
+cd '[Coalgirls]_Serial_Experiments_Lain_(1520x1080_Blu-Ray_FLAC)/'
+mpv *
+cd ~/my_dev/
+ls
+rm `363 DUS FINAL DAY, TEAM BADBOYS VS TEAM RYBSON [v2002936178].mp4`
+ls
+dust
+ls
+cd materias
+ls
+cd ..
+ls
+cd Music
+mpv *
+bluetoothctl 
+nvim .
+cd bevy
+nvim .
+nvim .
+timedatectl
+notif_history | reverse
+dunstctl set-paused toggle
+notif_history | reverse
+dunstctl set-paused toggle
+notif_history | reverse
+bluetoothctl 
+cd my_dev
+ls
+cd `[Anime Time] Kamisama Kiss S01 + 02 + OVA [Dual Audio][BD][1080p][HEVC 10bit x265][AAC][Eng Sub]/`
+mpv `Kamisama Kiss/Kamisama Kiss - 01.mkv`
+cd `Kamisama Kiss/`
+ls
+bluetoothctl 
+cd Downloads
+ls
+ls | sort-by date
+ls | sort-by modified
+qrencode 
+qrttoppm 
+qrcode-terminal 
+zbarimg adfwa.jpeg
+ls | sort-by modified
+zbarimg adfwa.jpeg
+bluetoothctl 
+cargo install cargo-make
+cd repos
+git clone https://github.com/johanhelsing/matchbox
+cd matchbox/
+ls
+cd matchbox_server/
+ls
+nvim README.md
+cd ..
+cd examples/
+ls
+cd bevy_ggrs/
+ls
+rustup target install wasm32-unknown-unknown<\n>
+rustup default stable
+rustup target install wasm32-unknown-unknown<\n>
+cargo install wasm-server-runner
+rustup default nightly
+cargo install wasm-server-runner
+zi matchbox
+ls
+zi matchbox
+cargo make serve -p release
+cd matchbox_demo
+ls
+zi demo
+popd
+fd | find demo
+cd matchbox_serve
+cd matchbox_server
+ls
+cargo make serve -p release
+cd ..
+ls
+cd examples
+cargo make serve -p release
+cd ..
+cd bevy_matchbox/
+cargo make serve -p releas
+cargo make serve -p release
+cd ..
+cargo run --bin matchbox_server
+git clone https://github.com/johanhelsing/extreme_bevy
+bluetoothctl 
+mpv `Kamisama Kiss - 02.mkv`
+mpv 962152f2169736a2249b9ef8e4da48181c7b1479770a93e809c4399e0aa1a48a.m4v?f=d6ed314d-a913-4063-ba9b-6969e4b424a8.m4v
+waydroid first-launch
+nvim gust.txt
+zi CV
+ls
+nvim cv_local.yml
+nvim cv_main.yml
+./compile.sh cv_main.yml
+bluetoothctl 
+mv .gitignore.old .gitignore
+git status
+nvim .gitignore
+ls
+nvim .gitconfig
+nvim .gitignore
+git status
+nvim .gitignore
+git status
+git add .gitignore
+git status

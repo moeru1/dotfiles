@@ -5,13 +5,15 @@
 # Read `man 5 sway` for a complete reference.
 
 default_border pixel 2
-default_floating_border pixel 2
+default_floating_border none
 exec --no-startup-id dbus-update-activation-environment --all
 exec --no-startup-id /usr/libexec/xdg-desktop-portal -r
 exec /usr/bin/nm-applet
 exec --no-startup-id /usr/libexec/xdg-desktop-portal-wlr
 #exec systemctl --user restart rs.wl-gammarelay.service
 
+blur enable
+blur_passes 0
 #font "Comic Code Ligatures" 10
 font "Chalkboard SE 10"
 ### Variables
@@ -35,7 +37,8 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+#output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg ~/Pictures/wp/mymelody-out.jpg center #f9d1dc
 #
 # Example configuration:
 #
@@ -164,6 +167,9 @@ input "type:touchpad" {
     # Make the current focus fullscreen
     bindsym $mod+f fullscreen
 
+    # Maximize the current focus
+    bindsym $mod+m exec '~/.config/sway/maximize.sh'
+
     # Toggle the current focus between tiling and floating mode
     bindsym $mod+Shift+space floating toggle
 
@@ -232,6 +238,7 @@ bar {
 #    }
 #}
 
+hide_edge_borders smart
 # ------------------------------------------
 # CUSTOM KEYS START
 # ------------------------------------------
@@ -270,7 +277,8 @@ bindsym $mod+Shift+d exec $drun
 
 bindsym $mod+Shift+t exec gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark' && gsettings set org.gnome.desktop.interface icon-theme 'Reversal-blue-dark'	
 
-bindsym $mod+t exec gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-light' && gsettings set org.gnome.desktop.interface icon-theme 'Reversal-blue'`
+#bindsym $mod+t exec gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-light' && gsettings set org.gnome.desktop.interface icon-theme 'Reversal-blue'`
 
+bindsym $mod+o mark --add mycontainer
 include /etc/sway/config.d/*
 

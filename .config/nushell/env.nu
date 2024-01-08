@@ -99,11 +99,12 @@ $env.NU_PLUGIN_DIRS = [
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # $env.PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
-$env.PATH = ($env.PATH | split row (char esep) | prepend '/home/moeru/.cargo/bin' | prepend '/usr/local/go/bin')
+$env.PATH = ($env.PATH | split row (char esep) | prepend '/home/moeru/.cargo/bin' | prepend '/usr/local/go/bin' | prepend '/home/moeru/go/bin')
 $env.EDITOR = nvim
 $env.FZF_DEFAULT_COMMAND = "fd"
 
 alias vim = nvim
 alias k = kitty +kitten 
+alias swaycfg = nvim ~/.config/sway/config
 
-zoxide init nushell | save -f ~/.zoxide.nu
+# zoxide init nushell | save -f ~/.zoxide.nu
