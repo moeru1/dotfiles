@@ -3,15 +3,16 @@ local lsp = require("lsp-zero")
 lsp.preset("recommended")
 
 lsp.ensure_installed({
-  'rust_analyzer',
-  'clangd',
-  'bashls',
+--  'rust_analyzer',
+-- 'clangd',
+--  'bashls',
   'lua_ls',
   'typst_lsp',
   'yamlls',
   'jsonls',
   'gopls',
-  'templ'
+  'templ',
+  'pyright',
 })
 
 lsp.nvim_workspace()

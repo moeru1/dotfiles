@@ -15,9 +15,9 @@ function SyncColor()
     local obj = vim.system({script}, {text = true}):wait()
 
     if obj.stdout ~= nil and obj.stdout == "dark" then
-        vim.cmd.colorscheme("catppuccin")
+        vim.cmd.colorscheme("rose-pine")
     else
-        vim.cmd.colorscheme("acme")
+        vim.cmd.colorscheme("rose-pine")
     end
 end
 
