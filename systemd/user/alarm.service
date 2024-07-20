@@ -1,0 +1,11 @@
+[Unit]
+Description="Alarms"
+
+[Service]
+Type=oneshot
+ExecStart="/home/moeru/alarms/play_alarm.sh"
+
+[Install]
+WantedBy=default.target
+
+

@@ -1,7 +1,8 @@
-*
 !.bashrc
 !.gitignore
+!.wezterm.lua
 
+.config/*
 !.config/enviroment.d/
 !.config/kitty/
 !.config/nushell/
@@ -11,11 +12,4 @@
 !.config/tofi/
 !.config/waybar/
 
-!.config/enviroment.d/*
-!.config/kitty/*
-!.config/nushell/*
-!.config/nvim/*
-!.config/sway/*
-!.config/systemd/user/*
-!.config/tofi/*
-!.config/waybar/*
+

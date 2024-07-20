@@ -1,0 +1,15 @@
+[Unit]
+Description=Run Do some thing every 1 minute
+
+[Timer]
+OnCalendar=*-*-* 07:46:00
+OnCalendar=*-*-* 07:51:00
+OnCalendar=*-*-* 07:56:00
+OnCalendar=*-*-* 08:06:00
+OnCalendar=*-*-* 08:16:00
+
+
+
+
+[Install]
+WantedBy=timers.target

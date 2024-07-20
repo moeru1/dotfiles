@@ -1,0 +1,11 @@
+[Unit]
+Description="Hello World script"
+
+[Service]
+Type=oneshot
+ExecStart=/home/moeru/helloworld.sh
+
+[Install]
+WantedBy=default.target
+
+

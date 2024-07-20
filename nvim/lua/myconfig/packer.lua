@@ -15,11 +15,7 @@ return require('lazy').setup({
     {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
     {'nvim-treesitter/playground'},
     {"nvim-treesitter/nvim-treesitter-context"},
-    {
-        "ThePrimeagen/harpoon",
-        branch = "harpoon2",
-        dependencies = { "nvim-lua/plenary.nvim" }
-    },
+    {"theprimeagen/harpoon"},
     {'mbbill/undotree'},
     {'tpope/vim-fugitive'},
 
@@ -53,6 +49,5 @@ return require('lazy').setup({
 
     { "zbirenbaum/copilot.lua" },
     {"psliwka/termcolors.nvim"},
-    { "catppuccin/nvim", as = "catppuccin" },
-    {'akinsho/toggleterm.nvim', version = "*", config = true}
+    { "catppuccin/nvim", as = "catppuccin" }
 })
